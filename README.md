@@ -13,6 +13,8 @@
     <li><b>Moaz Ahmed</b></li>
   </ul>
 </div>
+<br>
+<hr>
 <h2>Website Name: <b>AutoArena</b></h2>
 <br>
 <h3>Website Pages:</h3>
