@@ -25,4 +25,10 @@
   <li>Login</li>
   <li>Signup</li>
 </ul>
-
+<br>
+<h3>Used Framework:</h3>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+</ul>
