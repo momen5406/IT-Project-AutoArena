@@ -1,8 +1,17 @@
 <h1>IT Project for First Year at FCAI</h1>
-
-<p>Website Name: <b>AutoArena</b></p>
+<div>
+  <h3>Team Members:</h3>
+  <ul>
+    <li>Mo'men Hussein</li>
+    <li>Moner Mohamed</li>
+    <li>Mohamed Saad</li>
+    <li>Moataz Ahmed</li>
+    <li>Mostafa Fawzy</li>
+  </ul>
+</div>
+<h2>Website Name: <b>AutoArena</b></h2>
 <br>
-<h2>Website Components</h2>
+<h3>Website Components</h3>
 <ul>
   <li>Homepage</li>
   <li>About US</li>
