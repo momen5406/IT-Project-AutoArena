@@ -16,6 +16,7 @@
 <br>
 <hr>
 <h2>Website Name: <b>AutoArena</b></h2>
+<hr>
 <br>
 <h3>Website Pages:</h3>
 <ul>
@@ -28,6 +29,7 @@
   <li>Signup</li>
 </ul>
 <br>
+<hr>
 <h3>Used Framework:</h3>
 <ul>
   <li>HTML</li>
