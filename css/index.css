@@ -1,0 +1,64 @@
+/* Start Header */
+.landing {
+    height: calc(100vh);
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* color overlay */
+    url('../img/landing.jpg');
+    background-size: cover;
+    background-position: right center;
+    color: white;
+}
+
+
+.landing .container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing .container .links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.landing h1 {
+    font-size: 94px;
+    line-height: 1;
+    width: 50%;
+    margin-bottom: 50px;
+}
+/* End Header */
+
+/* Start About */
+.about .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about .container .img,
+.about .container .text {
+    flex-basis: 50%;
+}
+
+.about .container .img img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.about .container .text span {
+    color: var(--red);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.about .container .text h2 {
+    margin-bottom: 20px;
+}
+
+.about .container .text p {
+    color: var(--grey);
+    margin-bottom: 30px;
+}
+/* End About */
