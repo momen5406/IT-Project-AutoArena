@@ -2,8 +2,8 @@
 <div>
   <h3>Team Members:</h3>
   <ul>
-    <li>Mo'men Hussein</li>
-    <li>Moner Mohamed</li>
+    <li>Mo'men Hussein: Homepage</li>
+    <li>Moner Mohamed: About US</li>
     <li>Mohamed Saad</li>
     <li>Moataz Ahmed</li>
     <li>Mostafa Fawzy</li>
