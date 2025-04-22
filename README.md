@@ -15,7 +15,7 @@
 </div>
 <h2>Website Name: <b>AutoArena</b></h2>
 <br>
-<h3>Website Components</h3>
+<h3>Website Pages:</h3>
 <ul>
   <li>Homepage</li>
   <li>About US</li>
