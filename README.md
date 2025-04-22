@@ -3,14 +3,14 @@
   <h3>Team Members:</h3>
   <ul>
     <li><b>Mo'men Hussein</b>: Homepage</li>
-    <li><br>Moner Mohamed</br>: About US</li>
-    <li><br>Mohamed Saad</br></li>
-    <li><br>Moataz Ahmed</br></li>
-    <li><br>Mostafa Fawzy</br></li>
-    <li><br>Youssef Sedky</br></li>
-    <li><br>Youssef Abdelbaqy</br></li>
-    <li><br>Amr Ahmed</br></li>
-    <li><br>Moaz Ahmed</br></li>
+    <li><b>Moner Mohamed</b>: About US</li>
+    <li><b>Mohamed Saad</b></li>
+    <li><b>Moataz Ahmed</b></li>
+    <li><b>Mostafa Fawzy</b></li>
+    <li><b>Youssef Sedky</b></li>
+    <li><b>Youssef Abdelbaqy</b></li>
+    <li><b>Amr Ahmed</b></li>
+    <li><b>Moaz Ahmed</b></li>
   </ul>
 </div>
 <h2>Website Name: <b>AutoArena</b></h2>
