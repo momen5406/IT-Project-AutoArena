@@ -4,8 +4,8 @@
   <ul>
     <li><b>Mo'men Hussein</b>: Homepage</li>
     <li><b>Moataz Ahmed</b>: Browse Cars</li>
-    <li><b>Amr Ahmed</b>: Browse Cars</li>
-    <li><b>Moaz Ahmed</b>: Reviews</li>
+    <li><b>Moaz Ahmed</b>: Browse Cars/li>
+    <li><b>Amr Ahmed</b>: Reviews</li>
     <li><b>Moner Mohamed</b>: About US</li>
     <li><b>Mohamed Saad</b>: Contact US</li>
     <li><b>Mostafa Fawzy</b>: Login</li>
