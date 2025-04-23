@@ -3,14 +3,14 @@
   <h3>Team Members:</h3>
   <ul>
     <li><b>Mo'men Hussein</b>: Homepage</li>
+    <li><b>Moataz Ahmed</b>: Browse Cars</li>
+    <li><b>Amr Ahmed</b>: Browse Cars</li>
+    <li><b>Moaz Ahmed</b>: Reviews</li>
     <li><b>Moner Mohamed</b>: About US</li>
     <li><b>Mohamed Saad</b>: Contact US</li>
-    <li><b>Moataz Ahmed</b>: Browse Cars</li>
     <li><b>Mostafa Fawzy</b>: Login</li>
     <li><b>Youssef Sedky</b>: Signup</li>
     <li><b>Youssef Abdelbaqy</b>: Signup</li>
-    <li><b>Amr Ahmed</b>: Browse Cars</li>
-    <li><b>Moaz Ahmed</b>: Reviews</li>
   </ul>
 </div>
 <hr>
