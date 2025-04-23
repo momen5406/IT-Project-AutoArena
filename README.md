@@ -4,12 +4,12 @@
   <ul>
     <li><b>Mo'men Hussein</b>: Homepage</li>
     <li><b>Moner Mohamed</b>: About US</li>
-    <li><b>Mohamed Saad</b></li>
-    <li><b>Moataz Ahmed</b></li>
-    <li><b>Mostafa Fawzy</b></li>
-    <li><b>Youssef Sedky</b></li>
-    <li><b>Youssef Abdelbaqy</b></li>
-    <li><b>Amr Ahmed</b></li>
+    <li><b>Mohamed Saad</b>: Contact US</li>
+    <li><b>Moataz Ahmed</b>: Test Drive</li>
+    <li><b>Mostafa Fawzy</b>: Login</li>
+    <li><b>Youssef Sedky</b>: Signup</li>
+    <li><b>Youssef Abdelbaqy</b>: Signup</li>
+    <li><b>Amr Ahmed</b>:Gallery</li>
     <li><b>Moaz Ahmed</b></li>
   </ul>
 </div>
