@@ -1,17 +1,23 @@
+:root{
+  --red:rgb(26, 186, 181) ;
 
+}
 .head {
   text-align: center;
 }
 
 .about-head {
-  background-color: var(--red);
+  background-color:rgb(26, 186, 181);
   color: white;
   padding: 10px 40px;
   display: inline-block;
   font-size: 33px;
   margin-bottom: 60px;
   border-radius: var(--border-radius);
+  
 }
+
+
 
 
 .about-content {
@@ -48,4 +54,14 @@ h3 {
 }
 hr{
   margin: 20px 0;
+}
+.about-text a{
+  background-color:rgb(26, 186, 181) ;
+border-color:rgb(26, 186, 181) ;
+}
+.about-text a:hover{
+  color: black;
+}
+.box{
+  margin-bottom: 130px;
 }

@@ -65,7 +65,7 @@ hr {
 
 .logo span {
     font-weight: 700;
-    color: #CF0427;
+    color: var(--red);
 }
 
 .section-heading {
