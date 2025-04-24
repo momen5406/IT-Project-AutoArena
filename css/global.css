@@ -30,6 +30,11 @@ section {
     padding: 60px 0;
 }
 
+hr {
+    border: none;
+    border-bottom: 1px solid #dbdee7;
+}
+
 .container {
     padding: 0 15px;
     margin: 0 auto;
