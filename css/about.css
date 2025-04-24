@@ -1,38 +1,30 @@
-.about-page {
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-
-
-}
 
 .head {
   text-align: center;
 }
 
 .about-head {
-
-  background-color: red;
+  background-color: var(--red);
+  color: white;
+  padding: 10px 40px;
   display: inline-block;
   font-size: 33px;
-
+  margin-bottom: 60px;
+  border-radius: var(--border-radius);
 }
 
 
 .about-content {
-  margin-top: 100px;
+  margin-top: 0;
   display: flex;
   flex-wrap: nowrap;
   gap: 40px;
   align-items: center;
-
-
 }
 
 img {
-  position: relative;
   width: 100%;
-   left: -123px;
+  border-radius: var(--border-radius);
 }
 
 .about-image {
@@ -43,12 +35,17 @@ img {
   width: 50%;
 }
 
+.about-text p {
+  color: var(--grey);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
 h3 {
   font-size: 31px;
   font-weight: 700;
 
 }
 hr{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 20px 0;
 }
