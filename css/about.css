@@ -1,20 +1,21 @@
-:root{
-  --red:rgb(26, 186, 181) ;
+:root {
+  --red: rgb(26, 186, 181);
 
 }
+
 .head {
   text-align: center;
 }
 
 .about-head {
-  background-color:rgb(26, 186, 181);
+  background-color: rgb(26, 186, 181);
   color: white;
   padding: 10px 40px;
   display: inline-block;
   font-size: 33px;
   margin-bottom: 60px;
   border-radius: var(--border-radius);
-  
+
 }
 
 
@@ -52,19 +53,24 @@ h3 {
   font-weight: 700;
 
 }
-h4{
+
+h4 {
   font-size: 20px;
 }
-hr{
+
+hr {
   margin: 20px 0;
 }
-.about-text a{
-  background-color:rgb(26, 186, 181) ;
-border-color:rgb(26, 186, 181) ;
+
+.about-text a {
+  background-color: rgb(26, 186, 181);
+  border-color: rgb(26, 186, 181);
 }
-.about-text a:hover{
+
+.about-text a:hover {
   color: black;
 }
-.box{
+
+.box {
   margin-bottom: 130px;
 }
