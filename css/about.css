@@ -1,5 +1,10 @@
 :root {
+<<<<<<< HEAD
+  --red: rgb(26, 186, 181);
+
+=======
     --main-color: rgb(26, 186, 181);
+>>>>>>> 0f145cb18e2d7089804b54121cf4f9309e37f197
 }
 
 .head {
@@ -7,6 +12,16 @@
 }
 
 .about-head {
+<<<<<<< HEAD
+  background-color: rgb(26, 186, 181);
+  color: white;
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 33px;
+  margin-bottom: 60px;
+  border-radius: var(--border-radius);
+
+=======
 	background-color: var(--main-color);
     color: white;
     padding: 10px 40px;
@@ -14,6 +29,7 @@
     font-size: 33px;
     margin-bottom: 60px;
     border-radius: var(--border-radius);
+>>>>>>> 0f145cb18e2d7089804b54121cf4f9309e37f197
 }
 
 .about-content {
@@ -52,6 +68,28 @@ h4 {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
+h4 {
+  font-size: 20px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.about-text a {
+  background-color: rgb(26, 186, 181);
+  border-color: rgb(26, 186, 181);
+}
+
+.about-text a:hover {
+  color: black;
+}
+
+.box {
+  margin-bottom: 130px;
+}
+=======
 hr {
     margin: 20px 0;
 }
@@ -68,3 +106,4 @@ hr {
 .box {
     margin-bottom: 130px;
 }
+>>>>>>> 0f145cb18e2d7089804b54121cf4f9309e37f197
