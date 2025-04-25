@@ -1,6 +1,6 @@
 /* !! Global Rules for all html files */
 :root {
-    --red: #d90429;
+    --main-color: #d90429;
     --black: #0A0B0F;
     --grey: #787e92;
     --trans: .3s ease-in-out;
@@ -65,7 +65,7 @@ hr {
 
 .logo span {
     font-weight: 700;
-    color: var(--red);
+    color: var(--main-color);
 }
 
 .section-heading {
@@ -79,8 +79,8 @@ hr {
 .special-link {
     color: white;
     font-weight: 600;
-    background-color: var(--red);
-    border: 3px solid var(--red);
+    background-color: var(--main-color);
+    border: 3px solid var(--main-color);
     text-decoration: none;
     padding: 15px 40px;
     border-radius: var(--border-radius);
@@ -90,7 +90,7 @@ hr {
 
 .special-link:hover {
     background: white;
-    color: var(--red);
+    color: var(--main-color);
 }
 
 /* Start Nav */
@@ -125,7 +125,7 @@ nav ul a {
 
 nav ul a.active,
 nav ul a:hover {
-    color: var(--red);
+    color: var(--main-color);
 }
 /* End Nav */
 
@@ -162,7 +162,7 @@ nav ul a:hover {
 }
 
 .pages-header .container a {
-    color: var(--red);
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -171,3 +171,36 @@ nav ul a:hover {
     margin: 0 15px;
 }
 /* End Pages Header */
+
+/* Start Footer */
+footer {
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .github {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .github a {
+    color: white;
+    font-size: 20px;
+    transition: var(--trans);
+}
+
+footer .github a:hover {
+    color: var(--main-color);
+}
+
+footer .copyrights span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+/* End Footer */

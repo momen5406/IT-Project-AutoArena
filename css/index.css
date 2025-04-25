@@ -48,7 +48,7 @@
 }
 
 .about .container .text span {
-    color: var(--red);
+    color: var(--main-color);
     display: block;
     margin-bottom: 10px;
 }
