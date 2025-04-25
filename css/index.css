@@ -120,3 +120,45 @@ img {
     line-height: 1.8;
 }
 /* End About */
+
+/* Start Services */
+.services .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.services .content .box {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: var(--border-radius);
+    transition: var(--trans);
+}
+
+.services .content .box:hover {
+    background-color: white;
+}
+
+.services .content .box i {
+    font-size: 24px;
+    background-color: white;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 50%;
+    color: var(--main-color);
+    transition: var(--trans);
+}
+
+.services .content .box:hover i {
+    border: 2px solid var(--main-color);
+}
+
+.services .content .box h4 {
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.services .content .box p {
+    color: var(--grey);
+    line-height: 1.8;
+}
+/* End Services */
