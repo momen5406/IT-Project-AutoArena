@@ -32,6 +32,17 @@
     }
 }
 
+@media (max-width: 374px) {
+    .heading h2 {
+        font-size: 50px;
+    }
+
+    .heading span {
+        bottom: 13px;
+        font-size: 16px;
+    }
+}
+
 img {
     width: 100%;
     display: block;
@@ -86,6 +97,18 @@ img {
 @media (max-width: 767px) {
     .landing h1 {
         font-size: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .landing h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 374px) {
+    .landing h1 {
+        font-size: 45px;
     }
 }
 /* End Header */
@@ -162,3 +185,128 @@ img {
     line-height: 1.8;
 }
 /* End Services */
+
+
+/* Start Gallery */
+.gallery .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery .content .car {
+    background-color: #f7f7f7;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 0 20px #dfdfdf;
+    transition: var(--trans);
+}
+
+.gallery .content .car:hover {
+    box-shadow: none;
+}
+
+.gallery .content .car .text {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery .content .car .text h5 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.gallery .info {
+    text-align: center;
+    margin-top: 40px;
+}
+/* End Gallery */
+
+/* Start Reviews */
+.reviews .content .review {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+@media (max-width: 576px) {
+    .reviews .content .review {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.reviews .content .review:nth-of-type(even) {
+    background-color: white;
+}
+
+.reviews .content .review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.reviews .content .review .text h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.reviews .content .review .text p {
+    color: var(--grey);
+    margin: 10px 0 20px;
+}
+
+.reviews .content .review .text a {
+    color: var(--black);
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 2px solid var(--black);
+}
+/* End Reviews */
+
+/* Start Contact */
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .name {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+@media (max-width: 576px) {
+    .contact .name {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--grey);
+    border-radius: var(--border-radius);
+    font-family: "Poppins", sans-serif;
+    outline-color: var(--main-color);
+}
+
+.contact form textarea {
+    height: 200px;
+}
+
+.contact form button {
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 40px;
+}
+/* End Contact */
