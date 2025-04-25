@@ -21,10 +21,10 @@
 <h3>Website Pages:</h3>
 <ul>
   <li>Homepage</li>
+  <li>Browse Cars</li>
+  <li>Repair Your Car</li>
+  <li>Reviews</li>
   <li>About US</li>
-  <li>Gallery</li>
-  <li>Test Drive</li>
-  <li>Contact US</li>
   <li>Login</li>
   <li>Signup</li>
 </ul>
