@@ -30,6 +30,10 @@ section {
     padding: 60px 0;
 }
 
+section:nth-of-type(even) {
+    background-color: #f7f7f7;
+}
+
 hr {
     border: none;
     border-bottom: 1px solid #dbdee7;
@@ -116,6 +120,20 @@ nav ul {
     gap: 30px;
 }
 
+@media ( max-width: 991px ) {
+    nav ul {
+        position: absolute;
+        top: 91px;
+        right: -100%;
+        flex-direction: column;
+        gap: 60px;
+        background-color: var(--black);
+        height: calc(100vh - 91px);
+        padding: 60px;
+        transition: var(--trans);
+    }
+}
+
 nav ul a {
     color: white;
     text-decoration: none;
@@ -123,9 +141,26 @@ nav ul a {
     transition: var(--trans);
 }
 
+@media ( max-width: 991px ) {
+    nav ul a {
+        font-size: 20px;
+    }
+}
+
 nav ul a.active,
 nav ul a:hover {
     color: var(--main-color);
+}
+
+nav .menu-icon {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .menu-icon {
+        display: none;
+    }
 }
 /* End Nav */
 
