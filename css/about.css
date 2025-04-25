@@ -68,3 +68,28 @@ hr {
 .box {
     margin-bottom: 130px;
 }
+form{
+
+
+text-align: center;
+  width: 30%;
+  margin:auto;
+  margin-bottom: 210px;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.send{
+    border-radius: 11px;
+    background-color:var(--main-color) ;
+    color: balck;
+}
+.send:hover{
+    background-color: rgb(209, 193, 162);
+    color: black;
+    
+
+}
