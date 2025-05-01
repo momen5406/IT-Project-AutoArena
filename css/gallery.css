@@ -328,10 +328,11 @@ del {
 .header-brow {
     position: relative;
     text-align: center;
-    font-size: x-large;
-    font-family: fantasy;
-    color: brown;
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--black);
     bottom: 40px;
+    text-transform: uppercase;
 }
 
 .model-group {
@@ -631,8 +632,10 @@ header {
 }
 
 h3 {
-    color: #630056e0;
-    font-size: x-large;
+    color: var(--main-color);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .tire-card {
