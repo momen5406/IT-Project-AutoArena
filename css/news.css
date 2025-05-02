@@ -1,3 +1,19 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --heading: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+}
+
 /* global styling */
 :root {
   --main-color: cadetblue;
