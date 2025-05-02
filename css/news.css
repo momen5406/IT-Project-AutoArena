@@ -57,11 +57,9 @@ hr {
     cursor: pointer;
 }
 
-/******* js related styling *****/
 
-.times-btn {
-    display: none;
-}
+
+
 
 .nav-bar {
     background: #333;
