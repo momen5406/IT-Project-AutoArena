@@ -30,11 +30,11 @@ img {
 }
 
 .about-image {
-    width: 50%;
+    width: 35%;
 }
 
 .about-text {
-    width: 50%;
+    width: 65%;
 }
 
 .about-text p {
@@ -68,28 +68,51 @@ hr {
 .box {
     margin-bottom: 130px;
 }
-form{
-
-
-text-align: center;
-  width: 30%;
-  margin:auto;
-  margin-bottom: 210px;
+/* Start Contact */
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
 }
-input{
-    display: block;
+.about-page{
+    padding-bottom: 0px;
+}
+.contact .name {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+@media (max-width: 576px) {
+    .contact .name {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.contact form input,
+.contact form textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--grey);
+    border-radius: var(--border-radius);
+    font-family: "Poppins", sans-serif;
+    outline-color: var(--main-color);
 }
-.send{
-    border-radius: 11px;
-    background-color:var(--main-color) ;
-    color: balck;
-}
-.send:hover{
-    background-color: rgb(209, 193, 162);
-    color: black;
-    
 
+.contact form textarea {
+    height: 200px;
 }
+
+.contact form button {
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 40px;
+}
+.contact-head{
+    font-size: 45px;
+}
+/* End Contact */

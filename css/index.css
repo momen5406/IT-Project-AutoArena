@@ -57,6 +57,7 @@ img {
     url('../img/landing.jpg');
     background-size: cover;
     background-position: right center;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -186,6 +187,63 @@ img {
 }
 /* End Services */
 
+/* Start Video */
+.video {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+
+.video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* height: 100%; */
+    width: 100%;
+}
+
+@media ( max-width: 1024px ) {
+    .video video {
+        height: 100%;
+        width: auto;
+    }
+}
+
+.video .text {
+    position: relative;
+    z-index: 5;
+    color: white;
+    background-color: #D90429AA;
+    text-align: center;
+    padding: 80px 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.video .text h5 {
+    font-size: 40px;
+}
+
+.video .text h5 span {
+    display: block;
+    font-weight: 300;
+    font-size: 30px;
+}
+/* End Video */
+
 
 /* Start Gallery */
 .gallery .content {
@@ -239,7 +297,7 @@ img {
 }
 
 .reviews .content .review:nth-of-type(even) {
-    background-color: white;
+    background-color: #F7F7F7;
 }
 
 .reviews .content .review img {
@@ -266,47 +324,3 @@ img {
     border-bottom: 2px solid var(--black);
 }
 /* End Reviews */
-
-/* Start Contact */
-.contact form {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contact .name {
-    display: flex;
-    flex: 1;
-    gap: 20px;
-}
-
-@media (max-width: 576px) {
-    .contact .name {
-        flex-direction: column;
-        gap: 0;
-    }
-}
-
-.contact form input,
-.contact form textarea {
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid var(--grey);
-    border-radius: var(--border-radius);
-    font-family: "Poppins", sans-serif;
-    outline-color: var(--main-color);
-}
-
-.contact form textarea {
-    height: 200px;
-}
-
-.contact form button {
-    font-size: 16px;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: auto;
-    margin-top: 10px;
-    padding: 10px 40px;
-}
-/* End Contact */
