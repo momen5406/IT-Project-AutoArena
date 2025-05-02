@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 * {
     box-sizing: border-box;
@@ -14,7 +15,13 @@ body {
     background: #fff;
 }
 
+=======
+>>>>>>> d3f8c9078e77b72e4a8c0fa3e3476fa894835523
 /* global styling */
+:root {
+    --main-color: cadetblue;
+    /* --main-color: chocolate; */
+}
 
 img {
     width: 100%;
@@ -29,13 +36,7 @@ a {
     color: #000;
 }
 
-hr {
-    width: 95vw;
-    margin: 0 auto;
-}
-
 /* header */
-
 .top-head {
     display: flex;
     justify-content: space-between;
@@ -51,10 +52,6 @@ hr {
     cursor: pointer;
 }
 
-
-
-
-
 .nav-bar {
     background: #333;
     height: 0;
@@ -64,7 +61,6 @@ hr {
 .show-nav {
     height: auto;
 }
-
 /********************/
 
 .nav-bar ul li {
@@ -94,11 +90,10 @@ hr {
 }
 
 /* banner */
-
-.banner {
+.banner .container {
     min-height: auto;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 30px 0;
     margin-top: 8px;
@@ -278,7 +273,6 @@ main a:hover {
 
 .main-container-right img {
     width: 100px;
-    height: 100px;
     align-self: center;
 }
 
