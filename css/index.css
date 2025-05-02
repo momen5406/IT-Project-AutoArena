@@ -14,7 +14,7 @@
 
 .heading span {
     position: absolute;
-    bottom: 23px;
+    bottom: 16px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 18px;
