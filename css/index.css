@@ -187,6 +187,55 @@ img {
 }
 /* End Services */
 
+/* Start Video */
+.video {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+
+.video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.video .text {
+    position: relative;
+    z-index: 5;
+    color: white;
+    background-color: #D90429AA;
+    text-align: center;
+    padding: 80px 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.video .text h5 {
+    font-size: 40px;
+}
+
+.video .text h5 span {
+    display: block;
+    font-weight: 300;
+    font-size: 30px;
+}
+/* End Video */
+
 
 /* Start Gallery */
 .gallery .content {
