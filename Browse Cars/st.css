@@ -100,7 +100,8 @@
     font-size: 18px;
   }
   .details  p{
-    color: rgb(243, 0, 0);
+    color: rgba(68, 63, 63, 0.39);
+    font-family: sans-serif;
   
   }
 
