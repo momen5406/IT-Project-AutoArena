@@ -73,7 +73,9 @@ hr {
     display: flex;
     flex-wrap: wrap;
 }
-
+.about-page{
+    padding-bottom: 0px;
+}
 .contact .name {
     display: flex;
     flex: 1;
