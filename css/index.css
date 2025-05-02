@@ -57,6 +57,7 @@ img {
     url('../img/landing.jpg');
     background-size: cover;
     background-position: right center;
+    background-attachment: fixed;
     color: white;
 }
 
