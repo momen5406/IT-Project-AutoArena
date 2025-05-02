@@ -297,7 +297,7 @@ img {
 }
 
 .reviews .content .review:nth-of-type(even) {
-    background-color: white;
+    background-color: #F7F7F7;
 }
 
 .reviews .content .review img {
