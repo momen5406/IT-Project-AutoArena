@@ -26,6 +26,8 @@ body {
 }
 
 .sign-container input {
+    font-family: inherit;
+    text-transform: capitalize;
     width: 100%;
     padding: 5%;
     margin: 20px 0;
