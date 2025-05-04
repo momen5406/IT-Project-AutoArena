@@ -1,4 +1,118 @@
-.head-about{
-
-    display: inline-block;
+:root {
+    --main-color: rgb(26, 186, 181);
 }
+
+.head {
+    text-align: center;
+}
+
+.about-head {
+	background-color: var(--main-color);
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    font-size: 33px;
+    margin-bottom: 60px;
+    border-radius: var(--border-radius);
+}
+
+.about-content {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.about-image {
+    width: 35%;
+}
+
+.about-text {
+    width: 65%;
+}
+
+.about-text p {
+    color: var(--grey);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 31px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.about-text a {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.about-text a:hover {
+    color: black;
+}
+
+.box {
+    margin-bottom: 130px;
+}
+/* Start Contact */
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-page{
+    padding-bottom: 0px;
+}
+.contact .name {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+@media (max-width: 576px) {
+    .contact .name {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--grey);
+    border-radius: var(--border-radius);
+    font-family: "Poppins", sans-serif;
+    outline-color: var(--main-color);
+}
+
+.contact form textarea {
+    height: 200px;
+}
+
+.contact form button {
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 40px;
+}
+.contact-head{
+    font-size: 45px;
+}
+/* End Contact */

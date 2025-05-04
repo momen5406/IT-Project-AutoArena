@@ -1,54 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AutoArena - Gallery</title>
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-        <!-- Global CSS File -->
-        <link rel="stylesheet" href="../css/global.css">
-        <!-- CSS File -->
-        <link rel="stylesheet" href="../css/gallery.css">
-    </head>
-    <body>
-        <!-- Start Nav -->
-        <nav>
-            <div class="container">
-                <h1 class="logo"><span>A</span>uto<span>A</span>rena</h1>
 
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="gallery.html" class="active">Browse Cars</a></li>
-                    <li><a href="reviews.html">Reviews</a></li>
-                    <li><a href="about.html">About US</a></li>
-                    <li><a href="contact.html">Contact US</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- End Nav -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoArena - Browse Cars</title>
+    <!-- Font Awesome -->
+    <link href="../css/all.min.css" rel="stylesheet" />
+    <!-- Global CSS File -->
+    <link rel="stylesheet" href="../css/global.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../css/gallery.css">
+</head>
 
-        <!-- Start Landing -->
-        <header class="pages-header">
-            <div class="container">
-                <div class="text">
-                    <h4>Browse Cars</h4>
-                    <div class="links">
-                        <a href="../index.html">Home</a>
-                        <i class="fa-solid fa-angles-right"></i>
-                        <p>Browse Cars</p>
-                    </div>
+<body>
+    <!-- Start Nav -->
+    <nav>
+        <div class="container">
+            <h1 class="logo"><span>A</span>uto<span>A</span>rena</h1>
+
+            <ul id="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Browse Cars</a></li>
+                <li><a href="repair.html">Repair Your Car</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About US</a></li>
+            </ul>
+
+            <i id="menu-button" class="fa-solid fa-bars menu-icon"></i>
+        </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Start Landing -->
+    <header class="pages-header">
+        <div class="container">
+            <div class="text">
+                <h4>Browse Cars</h4>
+                <div class="links">
+                    <a href="../index.html">Home</a>
+                    <i class="fa-solid fa-angles-right"></i>
+                    <p>Browse Cars</p>
                 </div>
             </div>
-        </header>
-        <!-- Start Landing -->
+        </div>
+    </header>
+    <!-- Start Landing -->
 
-        <!-- !! Start Your Code Here -->
+    <!-- !! Start Your Code Here -->
 
-        
-    </body>
+    <div class="filter-container">
+        <label for="modelFilter"> Search Model </label>
+        <select id="modelFilter" onchange="filterCars()">
+            <option value="all">All</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+        </select>
+    </div>
+
+    <section class="cars-co">
+        <div class="model-group" data-model="2025">
+            <h2 class="header-brow">" Model 2025 "</h2>
+            <div class="cars">
+                <!-- Toyota Corolla -->
+                <div class="car1">
+                    <h3>Toyota Corolla</h3>
+                    <a href=" " target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (10).jpeg"
+                            alt="Toyota Corolla"></a>
+                    <span>Price:</span> <del> 2,000,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p> 1,700,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Toyota Corolla</p>
+                        <p><strong>Model:</strong> 2025</p>
+                        <p><strong>Horsepower:</strong> 170 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Electric</p>
+                        <a href="https://www.toyota.com/corolla/" target="_blank" rel="noopener noreferrer">Read
+                            More...</a>
+                    </details>
+                </div>
+
+                <!-- BMW 320i -->
+                <div class="car1">
+                    <h3>BMW 320i</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (58).jpeg"
+                            alt="BMW"></a>
+                    <span>Price:</span> <del>3,000,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>2,500,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> BMW 320i</p>
+                        <p><strong>Model:</strong> 2025</p>
+                        <p><strong>Horsepower:</strong> 184 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.bmw-egypt.com/en/all-models/3-series.html" target="_blank"
+                            rel="noopener noreferrer">Read More...</a>
+                    </details>
+                </div>
+
+                <!-- Mercedes C-Class -->
+                <div class="car1">
+                    <h3>Mercedes C-Class</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (2).jpeg"
+                            alt="Mercedes"></a>
+                    <span>Price:</span> <del>3,500,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>3,000,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Mercedes C-Class</p>
+                        <p><strong>Model:</strong> 2025</p>
+                        <p><strong>Horsepower:</strong> 204 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.mercedes-benz.com/en/vehicles/c-class/" target="_blank"
+                            rel="noopener noreferrer">Read More...</a>
+                    </details>
+                </div>
+
+                <div class="car1">
+                    <h3>Kia Sportage</h3>
+                    <a href="https://www.kia.com/worldwide/vehicles/sportage.do" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="imgg" src="../img/gallery/images (36).jpeg" alt="Kia Sportage">
+                    </a>
+                    <span>Price:</span> <del>2,300,000 EGP</del><br>
+                    <span class="TOBuy"><a href="#"> Buy Now </a></span>
+                    <p>2,000,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Kia Sportage</p>
+                        <p><strong>Model:</strong> 2022</p>
+                        <p><strong>Horsepower:</strong> 177 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.kia.com/worldwide/vehicles/sportage.do">Read More...</a>
+                    </details>
+                </div>
+
+                <div class="car1">
+                    <h3>Suzuki Swift</h3>
+                    <a href="https://www.globalsuzuki.com/automobile/lineup/swift/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="imgg" src="../img/gallery/images (50).jpeg" alt="Suzuki Swift">
+                    </a>
+                    <span>Price:</span> <del>1,500,000 EGP</del><br>
+                    <span class="TOBuy"><a href="#"> Buy Now </a></span>
+                    <p>1,200,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Suzuki Swift</p>
+                        <p><strong>Model:</strong> 2025</p>
+                        <p><strong>Horsepower:</strong> 110 hp</p>
+                        <p><strong>Transmission:</strong> Manual</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.globalsuzuki.com/automobile/lineup/swift/">Read More...</a>
+                    </details>
+                </div>
+
+                <div class="car1">
+                    <h3>Hyundai Elantra</h3>
+                    <a href="https://www.hyundaiusa.com/us/en/vehicles/elantra" target="_blank"
+                        rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (74).jpeg" alt="Elantra"></a>
+                    <!-- <img class="imgg" src="images (60).jpeg" alt="Elantra"> -->
+                    <span>Price:</span> <del>1,500,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>1,200,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Hyundai Elantra</p>
+                        <p><strong>Model:</strong> 2025</p>
+                        <p><strong>Horsepower:</strong> 147 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.hyundaiusa.com/us/en/vehicles/elantra" target="_blank"
+                            rel="noopener noreferrer">Read More...</a>
+                    </details>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- Porsche -->
+        <div class="model-group" data-model="2024">
+            <h2 class="header-brow">" Model 2024 "</h2>
+            <div class="cars">
+                <div class="car1">
+                    <h3>Porsche</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (59).jpeg"
+                            alt="Porsche"></a>
+                    <!-- <img class="imgg" src="images (59).jpeg" alt="Porsche"> -->
+                    <span>Price:</span> <del>2,800,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>2,400,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Porsche</p>
+                        <p><strong>Model:</strong> 2024</p>
+                        <p><strong>Horsepower:</strong> 300 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.porsche.com/middle-east/_egypt_/models/" target="_blank"
+                            rel="noopener noreferrer">Read More...</a>
+                    </details>
+                </div>
+
+                <!-- Nissan Sunny -->
+                <div class="car1">
+                    <h3>Nissan Sunny</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (13).jpeg"
+                            alt="Sunny"></a>
+                    <span>Price:</span> <del>900,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>800,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Nissan Sunny</p>
+                        <p><strong>Model:</strong> 2024</p>
+                        <p><strong>Horsepower:</strong> 108 hp</p>
+                        <p><strong>Transmission:</strong> CVT</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://nissanautoegypt.com/sunny/?lang=ar" target="_blank"
+                            rel="noopener noreferrer">Read More...</a>
+                    </details>
+                </div>
+
+                <!-- Honda Civic -->
+                <div class="car1">
+                    <h3>Honda Civic</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (14).jpeg"
+                            alt="Civic"></a>
+                    <!-- <img class="imgg" src="images (14).jpeg" alt="Civic"> -->
+                    <span>Price:</span> <del>2,000,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>1,750,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Honda Civic</p>
+                        <p><strong>Model:</strong> 2024</p>
+                        <p><strong>Horsepower:</strong> 180 hp</p>
+                        <p><strong>Transmission:</strong> CVT</p>
+                        <p><strong>Fuel Type:</strong> Turbo Petrol</p>
+                        <a href="https://automobiles.honda.com/civic" target="_blank" rel="noopener noreferrer">Read
+                            More...</a>
+                    </details>
+                </div>
+
+                <div class="car1">
+                    <h3>Volkswagen Golf</h3>
+                    <a href="https://www.volkswagen.com/en/models/golf.html" target="_blank" rel="noopener noreferrer">
+                        <img class="imgg" src="../img/gallery/images (63).jpeg" alt="VW Golf">
+                    </a>
+                    <span>Price:</span> <del>2,400,000 EGP</del><br>
+                    <span class="TOBuy"><a href="#"> Buy Now </a></span>
+                    <p>2,100,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Volkswagen Golf</p>
+                        <p><strong>Model:</strong> 2024</p>
+                        <p><strong>Horsepower:</strong> 150 hp</p>
+                        <p><strong>Transmission:</strong> DSG</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.volkswagen.com/en/models/golf.html">Read More...</a>
+                    </details>
+                </div>
+
+                <div class="car1">
+                    <h3>BYD F3</h3>
+                    <a href="https://www.byd.com/en/car/f3" target="_blank" rel="noopener noreferrer">
+                        <img class="imgg" src="../img/gallery/images (44).jpeg" alt="BYD F3">
+                    </a>
+                    <span>Price:</span> <del>950,000 EGP</del><br>
+                    <span class="TOBuy"><a href="#"> Buy Now </a></span>
+                    <p>850,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> BYD F3</p>
+                        <p><strong>Model:</strong> 2024</p>
+                        <p><strong>Horsepower:</strong> 108 hp</p>
+                        <p><strong>Transmission:</strong> Manual</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.byd.com/en/car/f3">Read More...</a>
+                    </details>
+                </div>
+
+
+                <!-- Chevrolet Captiva -->
+                <div class="car1">
+                    <h3>Chevrolet Captiva</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (15).jpeg"
+                            alt="Captiva"></a>
+                    <span>Price:</span> <del>1,700,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>1,450,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Chevrolet Captiva</p>
+                        <p><strong>Model:</strong> 2024</p>
+                        <p><strong>Horsepower:</strong> 148 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.chevroletarabia.com/eg-en/cars/captiva" target="_blank"
+                            rel="noopener noreferrer">Read More...</a>
+                    </details><br>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- MG ZS -->
+        <div class="model-group" data-model="2023">
+            <h2 class="header-brow">Model 2023</h2>
+            <div class="cars">
+                <div class="car1">
+                    <h3>MG ZS</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (16).jpeg"
+                            alt="MG ZS"></a>
+                    <span>Price:</span> <del>1,200,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>1,050,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> MG ZS</p>
+                        <p><strong>Model:</strong> 2023</p>
+                        <p><strong>Horsepower:</strong> 120 _ hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.mgmotor.com.eg/model/zs/" target="_blank" rel="noopener noreferrer">Read
+                            More...</a>
+                    </details>
+                </div>
+
+                <!-- Renault Logan -->
+                <div class="car1">
+                    <h3>Renault Logan</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (17).jpeg"
+                            alt="Logan"></a>
+                    <span>Price:</span> <del>950,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>870,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Renault Logan</p>
+                        <p><strong>Model:</strong> 2023</p>
+                        <p><strong>Horsepower:</strong> 120 hp</p>
+                        <p><strong>Transmission:</strong> Manual</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://renault.com.eg/cars/logan/index.html" target="_blank"
+                            rel="noopener noreferrer">Read More...</a>
+                    </details>
+                </div>
+
+                <!-- Peugeot 3008 -->
+                <div class="car1">
+                    <h3>Peugeot 3008</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (18).jpeg"
+                            alt="3008"></a>
+                    <span>Price:</span> <del>2,400,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>2,000,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Peugeot 3008</p>
+                        <p><strong>Model:</strong> 2023</p>
+                        <p><strong>Horsepower:</strong> 180 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Hybrid</p>
+                        <a href="https://www.peugeot-eg.com/en/our-models/new-peugeot-3008/hybrid.html" target="_blank"
+                            rel="noopener noreferrer">Read More...</a>
+                    </details>
+                </div>
+
+                <div class="car1">
+                    <h3>Fiat Tipo</h3>
+                    <a href="https://www.fiat.com/tipo" target="_blank" rel="noopener noreferrer">
+                        <img class="imgg" src="../img/gallery/images (63).jpeg" alt="Fiat Tipo">
+                    </a>
+                    <span>Price:</span> <del>1,100,000 EGP</del><br>
+                    <span class="TOBuy"><a href="#"> Buy Now </a></span>
+                    <p>950,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Fiat Tipo</p>
+                        <p><strong>Model:</strong> 2023</p>
+                        <p><strong>Horsepower:</strong> 120 hp</p>
+                        <p><strong>Transmission:</strong> Manual</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.fiat.com/tipo">Read More...</a>
+                    </details>
+                </div>
+
+                <div class="car1">
+                    <h3>Opel Astra</h3>
+                    <a href="https://www.opel.com/cars/opel-astra/overview.html" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="imgg" src="../img/gallery/images (51).jpeg" alt="Opel Astra">
+                    </a>
+                    <span>Price:</span> <del>1,900,000 EGP</del><br>
+                    <span class="TOBuy"><a href="#"> Buy Now </a></span>
+                    <p>1,700,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Opel Astra</p>
+                        <p><strong>Model:</strong> 2023</p>
+                        <p><strong>Horsepower:</strong> 145 hp</p>
+                        <p><strong>Transmission:</strong> Automatic</p>
+                        <p><strong>Fuel Type:</strong> Petrol</p>
+                        <a href="https://www.opel.com/cars/opel-astra/overview.html">Read More...</a>
+                    </details>
+                </div>
+
+                <!-- Chery Tiggo 7 -->
+                <div class="car1">
+                    <h3>Chery Tiggo 7</h3>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img class="imgg" src="../img/gallery/images (19).jpeg"
+                            alt="Tiggo"></a>
+                    <span>Price:</span> <del>1,300,000 EGP</del><br>
+                    <span class="TOBuy"><a href="" target="_blank" rel="noopener noreferrer"> Buy Now </a></span>
+                    <p>1,150,000 EGP</p>
+                    <details class="details">
+                        <p><strong>Name:</strong> Chery Tiggo 7</p>
+                        <p><strong>Model:</strong> 2023</p>
+                        <p><strong>Horsepower:</strong> 154 hp</p>
+                        <p><strong>Transmission:</strong> CVT</p>
+                        <p><strong>Fuel Type:</strong> Turbo Petrol</p>
+                        <a href="https://chery-eg.com/ar/car/tiggo-7" target="_blank" rel="noopener noreferrer">Read
+                            More...</a>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <p class="github">Github Repo: <a href="https://github.com/momen5406/IT-Project-AutoArena" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+            <p class="copyrights">Copy Right 2025 &copy; By <span>FCAIH Team</span>. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+
+    <!-- Global JS File -->
+    <script src="../js/global.js"></script>
+    <!-- Gallery JS File -->
+    <script src="../js/gallery.js"></script>
+</body>
+
 </html>

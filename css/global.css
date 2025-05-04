@@ -1,6 +1,12 @@
 /* !! Global Rules for all html files */
+@font-face {
+    font-family: "Outfit";
+    font-weight: 100 200 300 400 500 600 700 800 900;
+    src: url("../fonts/Outfit-VariableFont_wght.ttf");
+}
+
 :root {
-    --red: #d90429;
+    --main-color: #d90429;
     --black: #0A0B0F;
     --grey: #787e92;
     --trans: .3s ease-in-out;
@@ -18,7 +24,7 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
 }
 
@@ -27,7 +33,16 @@ img {
 }
 
 section {
-    padding: 60px 0;
+    padding: 100px 0;
+}
+
+section:nth-of-type(even) {
+    background-color: #f7f7f7;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #dbdee7;
 }
 
 .container {
@@ -60,7 +75,7 @@ section {
 
 .logo span {
     font-weight: 700;
-    color: #CF0427;
+    color: var(--main-color);
 }
 
 .section-heading {
@@ -74,8 +89,8 @@ section {
 .special-link {
     color: white;
     font-weight: 600;
-    background-color: var(--red);
-    border: 3px solid var(--red);
+    background-color: var(--main-color);
+    border: 3px solid var(--main-color);
     text-decoration: none;
     padding: 15px 40px;
     border-radius: var(--border-radius);
@@ -83,9 +98,15 @@ section {
     display: inline-block;
 }
 
+@media (max-width: 576px) {
+    .special-link {
+        padding: 10px 20px;
+    }
+}
+
 .special-link:hover {
     background: white;
-    color: var(--red);
+    color: var(--main-color);
 }
 
 /* Start Nav */
@@ -111,6 +132,20 @@ nav ul {
     gap: 30px;
 }
 
+@media ( max-width: 991px ) {
+    nav ul {
+        position: absolute;
+        top: 83px;
+        right: -100%;
+        flex-direction: column;
+        gap: 60px;
+        background-color: var(--black);
+        height: calc(100vh - 91px);
+        padding: 60px;
+        transition: var(--trans);
+    }
+}
+
 nav ul a {
     color: white;
     text-decoration: none;
@@ -118,9 +153,26 @@ nav ul a {
     transition: var(--trans);
 }
 
+@media ( max-width: 991px ) {
+    nav ul a {
+        font-size: 20px;
+    }
+}
+
 nav ul a.active,
 nav ul a:hover {
-    color: var(--red);
+    color: var(--main-color);
+}
+
+nav .menu-icon {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .menu-icon {
+        display: none;
+    }
 }
 /* End Nav */
 
@@ -157,7 +209,7 @@ nav ul a:hover {
 }
 
 .pages-header .container a {
-    color: var(--red);
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -166,3 +218,36 @@ nav ul a:hover {
     margin: 0 15px;
 }
 /* End Pages Header */
+
+/* Start Footer */
+footer {
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .github {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .github a {
+    color: white;
+    font-size: 20px;
+    transition: var(--trans);
+}
+
+footer .github a:hover {
+    color: var(--main-color);
+}
+
+footer .copyrights span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+/* End Footer */

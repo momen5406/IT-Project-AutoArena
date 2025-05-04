@@ -1,0 +1,274 @@
+/* global styling */
+:root {
+  --main-color: cadetblue;
+  /* --main-color: chocolate; */
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Start Banner */
+.banner .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.banner .banner-main-content,
+.banner .banner-sub-content {
+  width: calc(50% - 20px);
+}
+
+@media (max-width: 768px) {
+  .banner .banner-main-content,
+  .banner .banner-sub-content {
+    width: 100%;
+  }
+}
+
+.current-news-head {
+  margin-top: 40px;
+}
+
+.current-news-head .new-link {
+  transition: var(--trans);
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.current-news-head .new-link::before {
+  content: "\f0da";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  transition: var(--trans);
+}
+
+.current-news-head .new-link:hover::before {
+  padding-left: 10px;
+  color: var(--main-color);
+}
+
+.current-news-head .new-link:hover {
+  padding-left: 30px;
+}
+
+.current-news-head .new-link a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.current-news-head .new-link span {
+  display: block;
+  font-weight: 4  00;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+/* Start Banner Right Images New Links */
+.banner-sub-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hot-topic {
+  width: calc(50% - 5px);
+  background-color: #f3f3f3;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+@media (max-width: 426px) {
+  .hot-topic {
+    width: 100%;
+  }
+}
+
+.hot-topic .hot-topic-content {
+  padding: 20px;
+}
+
+.hot-topic .hot-topic-content h2 {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.hot-topic .hot-topic-content a {
+  display: block;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: var(--trans);
+  color: var(--main-color);
+}
+
+.hot-topic .hot-topic-content a:hover {
+  padding-left: 10px;
+}
+
+.hot-topic .hot-topic-content a i {
+  align-self: flex-end;
+}
+
+/* Start Stories */
+.stories h2.section-heading {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.stories .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.stories .main-container-left,
+.stories .main-container-right {
+  width: calc(50% - 20px);
+}
+
+@media (max-width: 768px) {
+  .stories .main-container-left,
+  .stories .main-container-right {
+    width: 100%;
+  }
+}
+
+.main-container-left article {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.main-container-left article div {
+  padding: 20px;
+}
+
+.main-container-left h3 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.main-container-left p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0 15px;
+}
+
+.main-container-left a {
+  display: block;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: var(--trans);
+  color: var(--main-color);
+}
+
+.main-container-left a:hover {
+  padding-left: 10px;
+}
+
+.main-container-left a i {
+  align-self: flex-end;
+}
+
+.main-container-left .container-bottom-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.main-container-left .container-bottom-left article {
+  width: calc(50% - 10px);
+} 
+
+@media (max-width: 991px) {
+  .main-container-left .container-bottom-left article {
+    width: 100%;
+  } 
+}
+/* start Latest Stories */
+.main-container-right article {
+  border-bottom: 1px solid #d5d5d5;
+  background-color: white;
+}
+
+.main-container-right article:last-child {
+  border-bottom: none;
+}
+
+.main-container-right article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-container-right article .img {
+  width: 40%;
+}
+
+.main-container-right article .text h4 {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+.main-container-right article .text h4 i {
+  margin-right: 5px;
+}
+
+.main-container-right article .text {
+  flex: 1;
+  padding: 20px 0 0 20px;
+}
+
+.main-container-right article .text h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.main-container-right a {
+  display: block;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: var(--trans);
+  color: var(--main-color);
+}
+
+.main-container-right a:hover {
+  padding-left: 10px;
+}
+
+.main-container-right a i {
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  .main-container-right article .text {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .main-container-right article .text h2 {
+    margin: 5px 0;
+  }
+}
