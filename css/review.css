@@ -11,8 +11,9 @@ img {
     border-radius: 60px;
     justify-self: start;
 }
-h3{
+h3,h2{
     color: blue;
+    padding-left: 15px;
     
 }
 .aar{
@@ -30,13 +31,31 @@ h3{
 p{
     padding: 20px;
 }
-section{
-    display: block;
+.ar{
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 1400px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: azure;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: ease;
+    
+}
+
+button.active{
+    background-color: rgb(0, 224, 7);
 
 }
-.ar{
+.rate{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.ra
