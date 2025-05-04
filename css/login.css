@@ -1,1 +1,126 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Ibarra , Real , Nova ;
+}
+section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+    background: url(login\img4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.a1{
+    background:transparent;
+    border: solid 2px #0000002c;
+    border-radius: 30px;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(8px);
+    align-items: center;
+    position: relative;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+.a2{
+    width: 310px;
+    border-bottom: 2px white solid;
+    margin: 30px 0;
+    position: relative;
+    font-family: Ibarra , Real , Nova;
+}
+.a2 label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translatey(-50%);
+    font-size: 1em;
+    color: white;
+    transition: .5s;
+}
+.a2 input:focus~label,
+.a2 input:valid~label {
+    top: -5px;
+}
+.a2 input {
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1em;
+    padding: 0 40px 0 8px;
+}
+.a2 i {
+    position: absolute;
+    right: 8px;
+    font-size: 1.3em;
+    line-height: 57px;
+    color:  rgb(226, 57, 57);
+}
+.a4{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: -10px 0 15px;
+    font-family: Ibarra , Real , Nova;
+}
+.a4 label input {
+    accent-color:rgb(226, 57, 57);
+    margin-right: 2px;
+}
+.a4 a {
+    text-decoration: none;
+    color: white;
+}
+.a4 a:hover {
+    text-decoration: underline;
+    color:  rgb(226, 57, 57);
+}
+button{
+    font-family:Ibarra , Real , Nova ;
+    width:100%;
+    height:35px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight:530;
+    font-size: 1em;
+    background: rgb(226, 57, 57);
+    border: groove rgb(226, 57, 57) 2px;
+}
+button:hover{
+    background: #fff;
+}
+.a3{
+    text-align: center;
+    color: #fff;
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Ibarra , Real , Nova;
+}
+.a3 p a {
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600; 
+}
+.a3 p a:hover {
+    text-decoration: underline;
+    color:  rgb(226, 57, 57);
+}
