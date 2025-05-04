@@ -12,7 +12,7 @@ section{
     align-items: center;
     height:100vh;
     width:100%;
-    background: url(login\img4.jpg);
+    background: url(../img/img4.jpg);
     background-size: cover;
     background-position: center;
 }
