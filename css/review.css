@@ -4,3 +4,39 @@
     margin-top: 10px;
     text-align: center;
 }
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    justify-self: start;
+}
+h3{
+    color: blue;
+    
+}
+.aar{
+    display: flex;
+    transition: ease;
+    width: 700px;
+    margin-top: 30px;
+    gap: 30px;
+    margin-left: 100px;
+    
+}
+.ar :hover{
+    background-color: gainsboro;
+}
+p{
+    padding: 20px;
+}
+section{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+
+}
+.ar{
+    display: flex;
+}
