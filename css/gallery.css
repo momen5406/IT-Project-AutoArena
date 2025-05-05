@@ -34,7 +34,7 @@
 
 
 }
-.cars img:hover {
+.cars .car1 img:hover {
     transform: scale(.8);
 }
 
@@ -103,10 +103,10 @@ del {
 }
 
 .details p {
-    rgb(43, 42, 42);
+    color: rgb(43, 42, 42);
     margin: 22px;
-
 }
+
 
 .header-brow {
     position: relative;
