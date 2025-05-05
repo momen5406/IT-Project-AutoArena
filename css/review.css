@@ -1,12 +1,14 @@
+:root {
+    --main-color: rgb(169, 123, 18);
+}
 
 @media (max-width: 769px){
     .aar{
         display: flex;
-      transition: ease;
-      width: 100%;
-    margin-top: 30px;
-    gap: 30px;
-    
+        transition: ease;
+        width: 100%;
+        margin-top: 30px;
+        gap: 30px;
     }
 }
 @media(min-width:770px){
@@ -20,7 +22,7 @@
         display: flex;
     }
 }
-h4{
+.section-heading h4{
     margin-top: 110px;
     text-align: center;
 }
@@ -30,20 +32,22 @@ img {
     border-radius: 60px;
 }
 h2,h6{
-    color: red;
+    color: var(--main-color);
     padding-left: 100px;
-    
+    text-transform: capitalize;
 }
 h3{
-    color: red;
+    color: var(--main-color);
     padding-left: 15px;
-    
+    text-transform: capitalize;
 }
+
 .ar :hover{
     background-color: gainsboro;
 }
 .par{
     padding: 20px;
+    line-height: 1.8;
 }
  
 button{
@@ -59,7 +63,7 @@ button{
 }
 
 button.active{
-    background-color: rgb(0, 224, 7);
+    background-color: var(--main-color);
 
 }
 .rate{
