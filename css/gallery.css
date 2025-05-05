@@ -35,7 +35,7 @@
 
 }
 .cars img:hover {
-    transform: scale(.7);
+    transform: scale(.8);
 }
 
 .cars span {
@@ -103,7 +103,8 @@ del {
 }
 
 .details p {
-    color: rgb(243, 0, 0);
+    rgb(43, 42, 42);
+    margin: 22px;
 
 }
 
@@ -124,7 +125,7 @@ del {
 
 .TOBuy a {
     position: relative;
-    left: 6.5rem;
+    left: 6.3rem;
     bottom: 1rem;
     text-align: center;
 
