@@ -35,7 +35,7 @@
 
 }
 .cars .car1 img:hover {
-    transform: scale(.8);
+    transform: scale(.9);
 }
 
 .cars span {
@@ -87,14 +87,14 @@ details a:hover {
 .details {
     margin-top: 10px;
     font-size: 14px;
-    background-color: #dad6d6;
+    background-color: #d6d0d0;
     padding: 8px;
     border-radius: 5px;
 }
 
 .details:hover {
     border-radius: 10px;
-    background-color: rgb(179, 179, 174);
+     background-color: rgb(180, 180, 180);
 }
 
 del {
@@ -103,8 +103,8 @@ del {
 }
 
 .details p {
-    color: rgb(43, 42, 42);
-    margin: 22px;
+   color: rgb(0, 0, 0);
+    margin: 18px;
 }
 
 
