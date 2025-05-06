@@ -1,5 +1,11 @@
 img {
     width: 100%;
+    height: 250px;
+    padding: 10px;
+    transform: scale(.7);
+    transition: 2s ease;
+
+
 }
 
 .gallery .container {
