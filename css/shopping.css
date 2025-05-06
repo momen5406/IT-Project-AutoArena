@@ -1,0 +1,21 @@
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.go_back{
+	position: absolute;
+	padding: 15px 30px;
+	color: red;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: letter-spacing 0.3s ease;
+}
+.go_back:hover{
+	letter-spacing: 10px;
+
+
+
+}
