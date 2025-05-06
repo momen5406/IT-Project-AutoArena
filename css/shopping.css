@@ -1,7 +1,7 @@
 nav{
 	position: sticky;
 	top: 0;
-	z-index: 1000;
+	z-index: 1000px;
 }
 
 
@@ -13,6 +13,8 @@ nav{
 	letter-spacing: 2px;
 	transition: letter-spacing 0.3s ease;
 	display: flex;
+	margin-top: 10px;
+	max-width: 70px;
 }
 .go_back:hover{
 letter-spacing: 10px;
