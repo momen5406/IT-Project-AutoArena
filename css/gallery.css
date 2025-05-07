@@ -1,3 +1,7 @@
+:root {
+    --main-color: rgb(255, 158, 47);
+}
+
 img {
     width: 100%;
 }
@@ -45,6 +49,7 @@ img {
 
 .gallery {
     padding-top: 60px;
+    
 }
 
 .gallery .container {
@@ -62,6 +67,7 @@ img {
 @media (max-width: 1200px) {
     .gallery .car-card {
         height: 200px;
+        
     }
 }
 
@@ -77,6 +83,7 @@ img {
     }
 
     .gallery .car-card {
+        
         width: 100%;
     }
 }
