@@ -45,6 +45,7 @@ img {
 
 .gallery {
     padding-top: 60px;
+    
 }
 
 .gallery .container {
@@ -62,6 +63,7 @@ img {
 @media (max-width: 1200px) {
     .gallery .car-card {
         height: 200px;
+        
     }
 }
 
@@ -77,6 +79,7 @@ img {
     }
 
     .gallery .car-card {
+        
         width: 100%;
     }
 }
