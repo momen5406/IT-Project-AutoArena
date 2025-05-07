@@ -1,3 +1,7 @@
+:root {
+    --main-color: rgb(255, 158, 47);
+}
+
 img {
     width: 100%;
 }
