@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Ibarra , Real , Nova ;
+    font-family:Ibarra , Real , Nova;
 }
 section{
-    font-family:Ibarra , Real , Nova ;
+    font-family:Ibarra , Real , Nova;
     display: flex;
     position: relative;
     justify-content: center;
