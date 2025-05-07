@@ -163,61 +163,96 @@
     <script>
       // Product data in JSON format
       const productsData = [
-        {
-          name: "Car Battery",
-          price: 149.99,
-          rating: 4.5,
-          image: "../../images/products/battery.jpg",
-          description: "High-performance car battery with extended lifespan and reliable starting power.",
-          category: "Batteries",
-          availability: "In Stock"
-        },
-        {
-          name: "Oil Filter",
-          price: 14.99,
-          rating: 4.0,
-          image: "../../images/products/oil-filter.jpg",
-          description: "Premium quality oil filter that effectively removes contaminants from your engine oil.",
-          category: "Filters",
-          availability: "In Stock"
-        },
-        {
-          name: "Brake Pads",
-          price: 39.99,
-          rating: 4.8,
-          image: "../../images/products/brake-pads.jpg",
-          description: "Durable brake pads designed for optimal stopping power and reduced noise.",
-          category: "Brakes",
-          availability: "In Stock"
-        },
-        {
-          name: "Spark Plugs",
-          price: 8.99,
-          rating: 4.2,
-          image: "../../images/products/spark-plugs.jpg",
-          description: "High-performance spark plugs for improved fuel efficiency and engine performance.",
-          category: "Ignition",
-          availability: "In Stock"
-        },
-        {
-          name: "Air Filter",
-          price: 19.99,
-          rating: 4.3,
-          image: "../../images/products/air-filter.jpg",
-          description: "Advanced air filter that protects your engine while ensuring optimal airflow.",
-          category: "Filters",
-          availability: "In Stock"
-        },
-        {
-          name: "Motor Oil",
-          price: 24.99,
-          rating: 4.7,
-          image: "../../images/products/motor-oil.jpg",
-          description: "Synthetic motor oil that provides superior engine protection and performance.",
-          category: "Fluids",
-          availability: "In Stock"
-        }
-      ];
+      {
+    "name": "Jatco CVT Transmission (Nissan)",
+    "price": 35000.00,
+    "rating": 4.3,
+    "image": "../../images/products/jatco-cvt.jpg",
+    "description": "JF011E model, fits Altima/Sentra, rebuilt with warranty.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "ZF 8HP 8-Speed Automatic",
+    "price": 60000.00,
+    "rating": 4.9,
+    "image": "../../images/products/zf8-transmission.jpg",
+    "description": "Used in BMW/Audi, 750 Nm torque capacity.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Toyota Aisin AWF8F35 CVT",
+    "price": 40000.00,
+    "rating": 4.5,
+    "image": "../../images/products/aisin-cvt.jpg",
+    "description": "Fits RAV4/Corolla, includes torque converter.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Getrag DCT 7-Speed (VW DSG)",
+    "price": 45000.00,
+    "rating": 4.7,
+    "image": "../../images/products/dsg-transmission.jpg",
+    "description": "Dual-clutch, 250 Nm, for Golf/Jetta.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Tremec TR-6060 6-Speed Manual",
+    "price": 55000.00,
+    "rating": 4.8,
+    "image": "../../images/products/tremec-transmission.jpg",
+    "description": "Heavy-duty, used in Mustang GT500/Camaro ZL1.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Honda 5-Speed Manual Transmission",
+    "price": 30000.00,
+    "rating": 4.4,
+    "image": "../../images/products/honda-transmission.jpg",
+    "description": "Fits Civic/Accord, includes clutch kit.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "GM 6L80 6-Speed Automatic",
+    "price": 50000.00,
+    "rating": 4.6,
+    "image": "../../images/products/6l80-transmission.jpg",
+    "description": "Fits Silverado/Tahoe, 700 Nm capacity.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Ford 10R80 10-Speed Automatic",
+    "price": 65000.00,
+    "rating": 4.7,
+    "image": "../../images/products/10r80-transmission.jpg",
+    "description": "Used in F-150/Mustang, rapid shifts.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "BorgWarner T56 Magnum 6-Speed",
+    "price": 60000.00,
+    "rating": 4.9,
+    "image": "../../images/products/t56-transmission.jpg",
+    "description": "Aftermarket upgrade, handles 1000+ HP.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Aisin AWR6L45 6-Speed Automatic",
+    "price": 48000.00,
+    "rating": 4.5,
+    "image": "../../images/products/awr6-transmission.jpg",
+    "description": "Fits BMW 3-Series, includes mechatronics.",
+    "category": "Car Clutches",
+    "availability": "In Stock"
+  },     ];
 
       // Cart functionality
       let cart = [];

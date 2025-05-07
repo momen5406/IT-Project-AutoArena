@@ -163,61 +163,96 @@
     <script>
       // Product data in JSON format
       const productsData = [
-        {
-          name: "Car Battery",
-          price: 149.99,
-          rating: 4.5,
-          image: "../../images/products/battery.jpg",
-          description: "High-performance car battery with extended lifespan and reliable starting power.",
-          category: "Batteries",
-          availability: "In Stock"
-        },
-        {
-          name: "Oil Filter",
-          price: 14.99,
-          rating: 4.0,
-          image: "../../images/products/oil-filter.jpg",
-          description: "Premium quality oil filter that effectively removes contaminants from your engine oil.",
-          category: "Filters",
-          availability: "In Stock"
-        },
-        {
-          name: "Brake Pads",
-          price: 39.99,
-          rating: 4.8,
-          image: "../../images/products/brake-pads.jpg",
-          description: "Durable brake pads designed for optimal stopping power and reduced noise.",
-          category: "Brakes",
-          availability: "In Stock"
-        },
-        {
-          name: "Spark Plugs",
-          price: 8.99,
-          rating: 4.2,
-          image: "../../images/products/spark-plugs.jpg",
-          description: "High-performance spark plugs for improved fuel efficiency and engine performance.",
-          category: "Ignition",
-          availability: "In Stock"
-        },
-        {
-          name: "Air Filter",
-          price: 19.99,
-          rating: 4.3,
-          image: "../../images/products/air-filter.jpg",
-          description: "Advanced air filter that protects your engine while ensuring optimal airflow.",
-          category: "Filters",
-          availability: "In Stock"
-        },
-        {
-          name: "Motor Oil",
-          price: 24.99,
-          rating: 4.7,
-          image: "../../images/products/motor-oil.jpg",
-          description: "Synthetic motor oil that provides superior engine protection and performance.",
-          category: "Fluids",
-          availability: "In Stock"
-        }
-      ];
+         {
+    "name": "Bosch Coolant",
+    "price": 180.00,
+    "rating": 4.6,
+    "image": "../../images/products/coolant.jpg",
+    "description": "Ethylene glycol-based, 5L pre-mixed, protects against corrosion and boiling, compatible with all vehicle engines.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Castrol Brake Fluid",
+    "price": 150.00,
+    "rating": 4.5,
+    "image": "../../images/products/brake-fluid.jpg",
+    "description": "DOT 4 synthetic brake fluid, high boiling point (265°C), prevents vapor lock for reliable braking.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Shell Windshield Washer Fluid",
+    "price": 35.00,
+    "rating": 4.2,
+    "image": "../../images/products/washer-fluid.jpg",
+    "description": "1L concentrate, anti-freeze formula (-15°C), removes dirt and grime effectively.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Mobil Power Steering Fluid",
+    "price": 120.00,
+    "rating": 4.4,
+    "image": "../../images/products/steering-fluid.jpg",
+    "description": "Dexron III compatible, reduces pump noise, extends steering system life.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Valvoline Transmission Fluid",
+    "price": 280.00,
+    "rating": 4.7,
+    "image": "../../images/products/transmission-fluid.jpg",
+    "description": "Full synthetic ATF, Dexron VI compatible, ensures smooth gear shifts.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Total Antifreeze",
+    "price": 160.00,
+    "rating": 4.3,
+    "image": "../../images/products/antifreeze.jpg",
+    "description": "Ready-to-use formula, protects against freezing (-37°C) and overheating.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "BG Radiator Flush",
+    "price": 85.00,
+    "rating": 4.1,
+    "image": "../../images/products/radiator-flush.jpg",
+    "description": "Removes rust and scale, improves cooling system efficiency.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "STP Fuel Additive",
+    "price": 70.00,
+    "rating": 4.0,
+    "image": "../../images/products/fuel-additive.jpg",
+    "description": "Cleans injectors, reduces emissions, enhances fuel economy.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "AdBlue Diesel Fluid",
+    "price": 220.00,
+    "rating": 4.5,
+    "image": "../../images/products/adblue.jpg",
+    "description": "10L container, reduces NOx emissions in diesel engines.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Liqui Moly Grease",
+    "price": 50.00,
+    "rating": 4.3,
+    "image": "../../images/products/grease.jpg",
+    "description": "High-temperature lithium grease, waterproof, for bearings and joints.",
+    "category": "Car Liquids",
+    "availability": "In Stock"
+  },     ];
 
       // Cart functionality
       let cart = [];

@@ -163,61 +163,97 @@
     <script>
       // Product data in JSON format
       const productsData = [
-        {
-          name: "Car Battery",
-          price: 149.99,
-          rating: 4.5,
-          image: "../../images/products/battery.jpg",
-          description: "High-performance car battery with extended lifespan and reliable starting power.",
-          category: "Batteries",
-          availability: "In Stock"
-        },
-        {
-          name: "Oil Filter",
-          price: 14.99,
-          rating: 4.0,
-          image: "../../images/products/oil-filter.jpg",
-          description: "Premium quality oil filter that effectively removes contaminants from your engine oil.",
-          category: "Filters",
-          availability: "In Stock"
-        },
-        {
-          name: "Brake Pads",
-          price: 39.99,
-          rating: 4.8,
-          image: "../../images/products/brake-pads.jpg",
-          description: "Durable brake pads designed for optimal stopping power and reduced noise.",
-          category: "Brakes",
-          availability: "In Stock"
-        },
-        {
-          name: "Spark Plugs",
-          price: 8.99,
-          rating: 4.2,
-          image: "../../images/products/spark-plugs.jpg",
-          description: "High-performance spark plugs for improved fuel efficiency and engine performance.",
-          category: "Ignition",
-          availability: "In Stock"
-        },
-        {
-          name: "Air Filter",
-          price: 19.99,
-          rating: 4.3,
-          image: "../../images/products/air-filter.jpg",
-          description: "Advanced air filter that protects your engine while ensuring optimal airflow.",
-          category: "Filters",
-          availability: "In Stock"
-        },
-        {
-          name: "Motor Oil",
-          price: 24.99,
-          rating: 4.7,
-          image: "../../images/products/motor-oil.jpg",
-          description: "Synthetic motor oil that provides superior engine protection and performance.",
-          category: "Fluids",
-          availability: "In Stock"
-        }
-      ];
+         {
+    "name": "GM LS3 6.2L V8 Engine",
+    "price": 85000.00,
+    "rating": 4.9,
+    "image": "../../images/products/ls3-engine.jpg",
+    "description": "6.2L Gen IV V8, 430 HP, aluminum block, popular for swaps and muscle cars.",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Toyota 2JZ-GTE 3.0L Turbo",
+    "price": 95000.00,
+    "rating": 5.0,
+    "image": "../../images/products/2jz-engine.jpg",
+    "description": "3.0L inline-6 twin-turbo, legendary for tunability (Supra MKIV).",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Honda K20C1 2.0L Turbo",
+    "price": 65000.00,
+    "rating": 4.8,
+    "image": "../../images/products/k20c1-engine.jpg",
+    "description": "306 HP, direct-injection, from Civic Type R (FK8).",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Ford Coyote 5.0L V8",
+    "price": 70000.00,
+    "rating": 4.7,
+    "image": "../../images/products/coyote-engine.jpg",
+    "description": "450 HP, Ti-VCT, aluminum block (Mustang GT).",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "BMW N55 3.0L Turbo",
+    "price": 55000.00,
+    "rating": 4.6,
+    "image": "../../images/products/n55-engine.jpg",
+    "description": "TwinPower turbo inline-6, 320 HP (F30 335i).",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Mercedes M276 3.5L V6",
+    "price": 60000.00,
+    "rating": 4.5,
+    "image": "../../images/products/m276-engine.jpg",
+    "description": "302 HP, direct injection, used in E350/C350.",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "VW EA888 2.0L TSI",
+    "price": 45000.00,
+    "rating": 4.4,
+    "image": "../../images/products/ea888-engine.jpg",
+    "description": "Turbocharged, 220 HP (Golf GTI, Audi A4).",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Subaru EJ25 2.5L Turbo",
+    "price": 50000.00,
+    "rating": 4.6,
+    "image": "../../images/products/ej25-engine.jpg",
+    "description": "Boxer engine, 265 HP (WRX STI).",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Nissan VR38DETT 3.8L Twin-Turbo",
+    "price": 120000.00,
+    "rating": 5.0,
+    "image": "../../images/products/vr38-engine.jpg",
+    "description": "565 HP, R35 GT-R engine, hand-built.",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+  {
+    "name": "Chevrolet LT1 6.2L V8",
+    "price": 75000.00,
+    "rating": 4.8,
+    "image": "../../images/products/lt1-engine.jpg",
+    "description": "455 HP, direct injection (Camaro SS, Corvette C7).",
+    "category": "Car Engine",
+    "availability": "In Stock"
+  },
+     ];
 
       // Cart functionality
       let cart = [];
