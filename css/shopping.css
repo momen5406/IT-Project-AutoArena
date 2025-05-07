@@ -289,13 +289,19 @@ letter-spacing: 10px;
 		cursor: pointer;
 		transition: background-color 0.3s;
 		margin-top: auto;
+		transition: transform 0.3s ease;
 }
 
 .buy-button:hover {
 		background-color: darkred;
 		box-shadow: rgb(0, 0, 0, 0.05);
+		transform: scale(1.1);
 }
+.buy-button:active
+{
+box-shadow: rgb(0, 0, 0, 0.4);
 
+}
 .product-description {
 		font-size: 0.95rem;
 		line-height: 1.5;
@@ -394,7 +400,7 @@ letter-spacing: 10px;
         border-radius: 20px;
         margin-top: 10px;
         border: none;
-        background-color: red;
+        background-color: darkred;
         color: #fff;
       }
 
