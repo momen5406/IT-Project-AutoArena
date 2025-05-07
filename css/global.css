@@ -125,7 +125,7 @@ nav .container {
     justify-content: space-between;
 }
 
-nav ul {
+nav ul#menu {
     list-style: none;
     display: flex;
     align-items: center;
@@ -133,7 +133,7 @@ nav ul {
 }
 
 @media ( max-width: 991px ) {
-    nav ul {
+    nav ul#menu {
         position: absolute;
         top: 83px;
         right: -100%;
@@ -146,7 +146,11 @@ nav ul {
     }
 }
 
-nav ul a {
+nav ul#menu.open {
+    right: 0;
+}
+
+nav ul#menu a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -154,13 +158,13 @@ nav ul a {
 }
 
 @media ( max-width: 991px ) {
-    nav ul a {
+    nav ul#menu a {
         font-size: 20px;
     }
 }
 
-nav ul a.active,
-nav ul a:hover {
+nav ul#menu a.active,
+nav ul#menu a:hover {
     color: var(--main-color);
 }
 

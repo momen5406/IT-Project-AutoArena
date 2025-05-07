@@ -1,14 +1,16 @@
+// Navbar Manu
 const menuButton = document.getElementById("menu-button");
 const menu = document.getElementById("menu");
 
-menuButton.addEventListener("click", (e) => {
-    e.stopPropagation(); // Prevent the click from bubbling up
-    menu.style.right = "0";
+menuButton.addEventListener("click", () => {
+    menu.classList.toggle("open");
 });
 
-// Hide menu when clicking outside
-document.addEventListener("click", (e) => {
-    if (!menu.contains(e.target) && e.target !== menuButton) {
-        menu.style.right = "-100%";
-    }
+// Navbar Profile
+const profileButton = document.getElementById("profile-button");
+const profile = document.getElementById("profile");
+
+profileButton.addEventListener("click", () => {
+    profile.classList.toggle("appear");
 });
+
