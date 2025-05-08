@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AutoArena - Browse Cars</title>
     <!-- Font Awesome -->
     <link href="../css/all.min.css" rel="stylesheet" />
     <!-- Global CSS File -->
-    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/global.css" />
     <!-- CSS File -->
-    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="../css/gallery.css" />
 </head>
 
 <body>
@@ -21,7 +21,9 @@
 
             <ul id="menu">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="gallery.html" class="active">Browse Cars</a></li>
+                <li>
+                    <a href="gallery.html" class="active">Browse Cars</a>
+                </li>
                 <li><a href="mechanic.html">Book a Mechanic</a></li>
                 <li><a href="repair.html">Auto Parts</a></li>
                 <!-- <li><a href="reviews.html">Reviews</a></li> -->
@@ -56,26 +58,40 @@
             <form>
                 <div class="input-wrapper">
                     <i class="fas fa-search"></i>
-                    <input type="search" placeholder="Search by name">
+                    <input type="search" id="search" placeholder="Search by name" />
                 </div>
             </form>
         </div>
     </div>
-    
+
     <section class="gallery">
         <div class="container">
             <!-- 1: Audi RS7 Sportback -->
-            <div class="car-card">
+            <div class="car-card" data-name="Audi RS7 Sportback">
                 <div class="inner">
                     <div class="front-card">
-                        <img src="../img/gallery-audi.jpg" alt="Audi">
+                        <img src="../img/gallery/Audi RS7 Sportback.jpg" alt="Audi RS7 Sportback" />
                     </div>
                     <div class="back-card">
                         <h3 class="name">Audi RS7 Sportback</h3>
                         <div class="details">
-                            <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2024</p>
-                            <p class="price"><span class="tag"><i class="fa-solid fa-dollar"></i> Price:</span> 130,000</p>
-                            <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle red"></span> <span class="color-circle green"></span> <span class="color-circle purple"></span> </p>
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2024
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar"></i>
+                                    Price:</span>
+                                130,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle red"></span>
+                                <span class="color-circle green"></span>
+                                <span class="color-circle purple"></span>
+                            </p>
                         </div>
                         <div class="buttons">
                             <a href="#" class="special-link">Test Drive</a>
@@ -84,20 +100,29 @@
                     </div>
                 </div>
             </div>
-        
+
             <!-- 2: Mercedes-Benz S-Class -->
-            <div class="car-card">
+            <div class="car-card" data-name="Mercedes-Benz S-Class">
                 <div class="inner">
                     <div class="front-card">
-                        <img src="../img/gallery/images (1).jpeg" alt="Mercedes-Benz S-Class">
+                        <img src="../img/gallery/Mercedes-Benz S-Class.jpg" alt="Mercedes-Benz S-Class" />
                     </div>
                     <div class="back-card">
                         <h3 class="name">Mercedes-Benz S-Class</h3>
                         <div class="details">
-                            <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                            <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 110,000</p>
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                110,000
+                            </p>
                             <p class="color">
-                                <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
                                 <span class="color-circle black"></span>
                                 <span class="color-circle silver"></span>
                                 <span class="color-circle white"></span>
@@ -110,20 +135,29 @@
                     </div>
                 </div>
             </div>
-        
+
             <!-- 3: BMW M5 Competition -->
-            <div class="car-card">
+            <div class="car-card" data-name="BMW M5 Competition">
                 <div class="inner">
                     <div class="front-card">
-                        <img src="../img/gallery/images (2).jpeg" alt="BMW M5 Competition">
+                        <img src="../img/gallery/BMW M5 Competition.jpg" alt="BMW M5 Competition" />
                     </div>
                     <div class="back-card">
                         <h3 class="name">BMW M5 Competition</h3>
                         <div class="details">
-                            <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2024</p>
-                            <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 102,000</p>
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2024
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                102,000
+                            </p>
                             <p class="color">
-                                <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
                                 <span class="color-circle blue"></span>
                                 <span class="color-circle black"></span>
                                 <span class="color-circle gray"></span>
@@ -136,20 +170,29 @@
                     </div>
                 </div>
             </div>
-        
+
             <!-- 4: Audi Q7 -->
-            <div class="car-card">
+            <div class="car-card" data-name="Audi Q7">
                 <div class="inner">
                     <div class="front-card">
-                        <img src="../img/gallery-audi.jpg" alt="Audi Q7">
+                        <img src="../img/gallery/Audi Q7.jpg" alt="Audi Q7" />
                     </div>
                     <div class="back-card">
                         <h3 class="name">Audi Q7</h3>
                         <div class="details">
-                            <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                            <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 75,000</p>
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                75,000
+                            </p>
                             <p class="color">
-                                <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
                                 <span class="color-circle silver"></span>
                                 <span class="color-circle black"></span>
                                 <span class="color-circle blue"></span>
@@ -162,20 +205,29 @@
                     </div>
                 </div>
             </div>
-        
+
             <!-- 5: Porsche 911 -->
-            <div class="car-card">
+            <div class="car-card" data-name="Porsche 911">
                 <div class="inner">
                     <div class="front-card">
-                        <img src="../img/gallery/images (2).jpeg" alt="Porsche 911">
+                        <img src="../img/gallery/Porsche 911.jpg" alt="Porsche 911" />
                     </div>
                     <div class="back-card">
                         <h3 class="name">Porsche 911</h3>
                         <div class="details">
-                            <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2024</p>
-                            <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 120,000</p>
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2024
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                120,000
+                            </p>
                             <p class="color">
-                                <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
                                 <span class="color-circle yellow"></span>
                                 <span class="color-circle red"></span>
                                 <span class="color-circle black"></span>
@@ -188,20 +240,29 @@
                     </div>
                 </div>
             </div>
-        
+
             <!-- 6: Ferrari 812 Superfast -->
-            <div class="car-card">
+            <div class="car-card" data-name="Ferrari 812 Superfast">
                 <div class="inner">
                     <div class="front-card">
-                        <img src="../img/gallery/images (3).jpeg" alt="Ferrari 812 Superfast">
+                        <img src="../img/gallery/Ferrari-812-Superfast.jpg" alt="Ferrari 812 Superfast" />
                     </div>
                     <div class="back-card">
                         <h3 class="name">Ferrari 812 Superfast</h3>
                         <div class="details">
-                            <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                            <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 340,000</p>
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                340,000
+                            </p>
                             <p class="color">
-                                <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
                                 <span class="color-circle red"></span>
                                 <span class="color-circle yellow"></span>
                                 <span class="color-circle black"></span>
@@ -214,20 +275,29 @@
                     </div>
                 </div>
             </div>
-        
+
             <!-- 7: Maserati Ghibli -->
-            <div class="car-card">
+            <div class="car-card" data-name="Maserati Ghibli">
                 <div class="inner">
                     <div class="front-card">
-                        <img src="../img/gallery/images (4).jpeg" alt="Maserati Ghibli">
+                        <img src="../img/gallery/Maserati Ghibli.jpg" alt="Maserati Ghibli" />
                     </div>
                     <div class="back-card">
                         <h3 class="name">Maserati Ghibli</h3>
                         <div class="details">
-                            <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                            <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 85,000</p>
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                85,000
+                            </p>
                             <p class="color">
-                                <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
                                 <span class="color-circle blue"></span>
                                 <span class="color-circle black"></span>
                             </p>
@@ -239,791 +309,1006 @@
                     </div>
                 </div>
             </div>
-                <!-- 1: BMW X5 -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (5).jpeg" alt="BMW X5">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">BMW X5</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2024</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 75,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle white"></span> <span class="color-circle black"></span> <span class="color-circle silver"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 2: Audi A8 -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (6).jpeg" alt="Audi A8">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Audi A8</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 95,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle black"></span> <span class="color-circle silver"></span> <span class="color-circle blue"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 3: Mercedes-Benz GLE -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (7).jpeg" alt="Mercedes-Benz GLE">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Mercedes-Benz GLE</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 80,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle white"></span> <span class="color-circle silver"></span> <span class="color-circle gray"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 4: Porsche Cayenne -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (8).jpeg" alt="Porsche Cayenne">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Porsche Cayenne</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 120,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle red"></span> <span class="color-circle silver"></span> <span class="color-circle black"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 5: Range Rover Velar -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (10).jpeg" alt="Range Rover Velar">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Range Rover Velar</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2024</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 90,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle gray"></span> <span class="color-circle black"></span> <span class="color-circle blue"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 6: Tesla Model X -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (11).jpeg" alt="Tesla Model X">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Tesla Model X</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 105,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle white"></span> <span class="color-circle silver"></span> <span class="color-circle black"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 7: Lexus RX 500h -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (12).jpeg" alt="Lexus RX 500h">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Lexus RX 500h</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 72,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle silver"></span> <span class="color-circle black"></span> <span class="color-circle blue"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 8: Volvo XC90 -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (13).jpeg" alt="Volvo XC90">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Volvo XC90</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2024</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 85,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle white"></span> <span class="color-circle black"></span> <span class="color-circle gray"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 9: Jaguar F-Pace -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (14).jpeg" alt="Jaguar F-Pace">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Jaguar F-Pace</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 95,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle blue"></span> <span class="color-circle silver"></span> <span class="color-circle black"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 10: Acura MDX -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (15).jpeg" alt="Acura MDX">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Acura MDX</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2024</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 70,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle white"></span> <span class="color-circle black"></span> <span class="color-circle red"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 11: Nissan Patrol -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (16).jpeg" alt="Nissan Patrol">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Nissan Patrol</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 65,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle white"></span> <span class="color-circle silver"></span> <span class="color-circle black"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 12: Subaru Outback -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (17).jpeg" alt="Subaru Outback">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Subaru Outback</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 35,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle gray"></span> <span class="color-circle blue"></span> <span class="color-circle red"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 13: Ford Explorer -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (18).jpeg" alt="Ford Explorer">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Ford Explorer</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 60,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle black"></span> <span class="color-circle red"></span> <span class="color-circle blue"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 14: Chevrolet Traverse -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (19).jpeg" alt="Chevrolet Traverse">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Chevrolet Traverse</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2023</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 50,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle white"></span> <span class="color-circle black"></span> <span class="color-circle gray"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- 15: Honda CR-V -->
-                <div class="car-card">
-                    <div class="inner">
-                        <div class="front-card">
-                            <img src="../img/gallery/images (20).jpeg" alt="Honda CR-V">
-                        </div>
-                        <div class="back-card">
-                            <h3 class="name">Honda CR-V</h3>
-                            <div class="details">
-                                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2024</p>
-                                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 45,000</p>
-                                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span> <span class="color-circle white"></span> <span class="color-circle black"></span> <span class="color-circle blue"></span></p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="special-link">Test Drive</a>
-                                <a href="#" class="special-link">Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Mercedes-Benz GLC 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (21).jpeg" alt="Mercedes-Benz GLC 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Mercedes-Benz GLC</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 78,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle silver"></span>
-                </p>
-            </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Mercedes-Benz S-Class 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (22).jpeg" alt="Mercedes-Benz S-Class 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Mercedes-Benz S-Class</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 115,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle gray"></span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle white"></span>
-                </p>
+            <!-- 1: BMW X5 -->
+            <div class="car-card" data-name="BMW X5">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/BMW X5.jpg" alt="BMW X5" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">BMW X5</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2024
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                75,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle silver"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Mercedes-Benz EQA 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (23).jpeg" alt="Mercedes-Benz EQA 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Mercedes-Benz EQA</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 68,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle blue"></span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle black"></span>
-                </p>
+            <!-- 2: Audi A8 -->
+            <div class="car-card" data-name="Audi A8">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Audi A8.jpg" alt="Audi A8" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Audi A8</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                95,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle blue"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Mercedes-Benz EQS SUV 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (24).jpeg" alt="Mercedes-Benz EQS SUV 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Mercedes-Benz EQS SUV</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 130,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle silver"></span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle black"></span>
-                </p>
+            <!-- 3: Mercedes-Benz GLE -->
+            <div class="car-card" data-name="Mercedes-Benz GLE">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Mercedes-Benz GLE.jpg" alt="Mercedes-Benz GLE" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Mercedes-Benz GLE</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                80,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle gray"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Mercedes-Benz CLA Coupe 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (25).jpeg" alt="Mercedes-Benz CLA Coupe 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Mercedes-Benz CLA Coupe</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 58,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle red"></span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle white"></span>
-                </p>
+            <!-- 4: Porsche Cayenne -->
+            <div class="car-card" data-name="Porsche Cayenne">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Porsche-Cayenne.jpg" alt="Porsche Cayenne" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Porsche Cayenne</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                120,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle red"></span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle black"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-           </div>
-        </div>
-      </div>
-      <!-- Audi A3 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (36).jpeg" alt="Audi A3 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Audi A3</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 42,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle blue"></span>
-                    <span class="color-circle white"></span>
-                </p>
-            </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Audi Q5 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (27).jpeg" alt="Audi Q5 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Audi Q5</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 55,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle silver"></span>
-                    <span class="color-circle gray"></span>
-                </p>
+            <!-- 5: Range Rover Velar -->
+            <div class="car-card" data-name="Range Rover Velar">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Range Rover Velar.jpg" alt="Range Rover Velar" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Range Rover Velar</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2024
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                90,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle gray"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle blue"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Audi e-tron GT 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (28).jpeg" alt="Audi e-tron GT 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Audi e-tron GT</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 106,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle red"></span>
-                    <span class="color-circle gray"></span>
-                </p>
+            <!-- 6: Tesla Model X -->
+            <div class="car-card" data-name="Tesla Model X">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Tesla Model X.jpg" alt="Tesla Model X" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Tesla Model X</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                105,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle black"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Audi Q8 e-tron 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (29).jpeg" alt="Audi Q8 e-tron 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Audi Q8 e-tron</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 82,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle blue"></span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle white"></span>
-                </p>
+            <!-- 7: Lexus RX 500h -->
+            <div class="car-card" data-name="Lexus RX 500h">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Lexus-RX-500h.jpg" alt="Lexus RX 500h" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Lexus RX 500h</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                72,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle blue"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Audi A7 Sportback 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (30).jpeg" alt="Audi A7 Sportback 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Audi A7 Sportback</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 75,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle silver"></span>
-                    <span class="color-circle red"></span>
-                </p>
+            <!-- 8: Volvo XC90 -->
+            <div class="car-card" data-name="Volvo XC90">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Volvo-XC90.jpg" alt="Volvo XC90" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Volvo XC90</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2024
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                85,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle gray"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Jeep Wrangler 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (31).jpeg" alt="Jeep Wrangler 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Jeep Wrangler</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 52,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle red"></span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle green"></span>
-                </p>
-            </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Jeep Grand Cherokee 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (32).jpeg" alt="Jeep Grand Cherokee 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Jeep Grand Cherokee</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 60,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle gray"></span>
-                </p>
+            <!-- 9: Jaguar F-Pace -->
+            <div class="car-card" data-name="Jaguar F-Pace">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Jaguar F-Pace.jpg" alt="Jaguar F-Pace" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Jaguar F-Pace</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                95,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle blue"></span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle black"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Jeep Compass 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (33).jpeg" alt="Jeep Compass 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Jeep Compass</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 35,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle blue"></span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle red"></span>
-                </p>
+            <!-- 10: Acura MDX -->
+            <div class="car-card" data-name="Acura MDX">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Acura MDX.jpg" alt="Acura MDX" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Acura MDX</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2024
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                70,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle red"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Jeep Gladiator 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (34).jpeg" alt="Jeep Gladiator 2025">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Jeep Gladiator</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 49,000</p>
-                <p class="color"><span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle green"></span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle silver"></span>
-                </p>
+            <!-- 11: Nissan Patrol -->
+            <div class="car-card" data-name="Nissan Patrol">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Nissan-Patrol.jpg" alt="Nissan Patrol" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Nissan Patrol</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                65,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle black"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Jeep Renegade 2025 -->
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (35).jpeg" alt="Ford Mustang GTD">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Jeep Renegade</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 150,000</p>
-                <p class="color">
-                    <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle blue"></span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle gray"></span>
-                </p>
+            <!-- 12: Subaru Outback -->
+            <div class="car-card" data-name="Subaru Outback">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Subaru-Outback.jpg" alt="Subaru Outback" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Subaru Outback</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                35,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle gray"></span>
+                                <span class="color-circle blue"></span>
+                                <span class="color-circle red"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (36).jpeg" alt="BMW XM Label Red">
-        </div>
-        <div class="back-card">
-            <h3 class="name">BMW XM Label Red</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 185,000</p>
-                <p class="color">
-                    <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle red"></span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle silver"></span>
-                </p>
-            </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (37).jpeg" alt="Toyota Century SUV">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Toyota Century SUV</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 180,000</p>
-                <p class="color">
-                    <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle black"></span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle green"></span>
-                </p>
-            </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="car-card">
-    <div class="inner">
-        <div class="front-card">
-            <img src="../img/gallery/images (38).jpeg" alt="Tesla Model 3 Performance">
-        </div>
-        <div class="back-card">
-            <h3 class="name">Tesla Model 3 Performance</h3>
-            <div class="details">
-                <p class="year"><span class="tag"><i class="fa-solid fa-calendar"></i> Year:</span> 2025</p>
-                <p class="price"><span class="tag"><i class="fa-solid fa-dollar-sign"></i> Price:</span> 55,000</p>
-                <p class="color">
-                    <span class="tag"><i class="fa-solid fa-palette"></i> Colors:</span>
-                    <span class="color-circle white"></span>
-                    <span class="color-circle blue"></span>
-                    <span class="color-circle black"></span>
-                </p>
-            </div>
-            <div class="buttons">
-                <a href="#" class="special-link">Test Drive</a>
-                <a href="#" class="special-link">Download Brochure</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-  
+            <!-- 13: Ford Explorer -->
+            <div class="car-card" data-name="Ford Explorer">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Ford-Explorer.jpg" alt="Ford Explorer" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Ford Explorer</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                60,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle red"></span>
+                                <span class="color-circle blue"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            
+            <!-- 14: Chevrolet Traverse -->
+            <div class="car-card" data-name="Chevrolet Traverse">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Chevrolet-Traverse.jpg" alt="Chevrolet Traverse" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Chevrolet Traverse</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2023
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                50,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle gray"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 15: Honda CR-V -->
+            <div class="car-card" data-name="15: Honda CR-V">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Honda CR-V.jpg" alt="Honda CR-V" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Honda CR-V</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2024
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                45,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle blue"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercedes-Benz GLC 2025 -->
+            <div class="car-card" data-name="Mercedes-Benz GLC 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Mercedes-Benz GLC.jpeg" alt="Mercedes-Benz GLC 2025" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Mercedes-Benz GLC</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                78,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle silver"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercedes-Benz EQA 2025 -->
+            <div class="car-card" data-name="Mercedes-Benz EQA 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Mercedes-Benz EQA.jpg" alt="Mercedes-Benz EQA 2025" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Mercedes-Benz EQA</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                68,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle blue"></span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle black"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercedes-Benz EQS SUV 2025 -->
+            <div class="car-card" data-name="Mercedes-Benz EQS SUV 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Mercedes-Benz EQS SUV.jpg" alt="Mercedes-Benz EQS SUV 2025" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Mercedes-Benz EQS SUV</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                130,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle black"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercedes-AMG CLA -->
+            <div class="car-card" data-name="Mercedes-AMG CLA">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Mercedes-AMG CLA.jpg" alt="Mercedes-AMG CLA" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Mercedes-Benz CLA Coupe</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                58,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle red"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle white"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audi A3 2025 -->
+            <div class="car-card" data-name="Audi A3 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Audi A3.jpg" alt="Audi A3 2025" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Audi A3</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                42,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle blue"></span>
+                                <span class="color-circle white"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audi Q5 2025 -->
+            <div class="car-card" data-name="Audi Q5 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Audi Q5.jpg" alt="Audi Q5 2025" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Audi Q5</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                55,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle silver"></span>
+                                <span class="color-circle gray"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audi e-tron GT 2025 -->
+            <div class="car-card" data-name="Audi e-tron GT 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Audi e-tron GT.jpg" alt="Audi e-tron GT 2025" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Audi e-tron GT</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                106,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle red"></span>
+                                <span class="color-circle gray"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jeep Wrangler 2025 -->
+            <div class="car-card" data-name="Jeep Wrangler 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Jeep Wrangler.jpg" alt="Jeep Wrangler 2025" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Jeep Wrangler</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                52,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle red"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle green"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jeep Grand Cherokee 2025 -->
+            <div class="car-card" data-name="Jeep Grand Cherokee 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Jeep Grand Cherokee.jpg" alt="Jeep Grand Cherokee 2025" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Jeep Grand Cherokee</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                60,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle gray"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jeep Renegade 2025 -->
+            <div class="car-card" data-name="Jeep Renegade 2025">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Jeep Renegade.jpg" alt="Ford Mustang GTD" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Jeep Renegade</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                150,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle blue"></span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle gray"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BMW XM Label Red -->
+            <div class="car-card" data-name="BMW XM Label Red">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/BMW XM Label Red.jpg" alt="BMW XM Label Red" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">BMW XM Label Red</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                185,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle red"></span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle silver"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toyota Century SUV -->
+            <div class="car-card" data-name="Toyota Century SUV">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Toyota Century SUV.jpg" alt="Toyota Century SUV" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Toyota Century SUV</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                180,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle black"></span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle green"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tesla Model 3 Performance -->
+            <div class="car-card" data-name="Tesla Model 3 Performance">
+                <div class="inner">
+                    <div class="front-card">
+                        <img src="../img/gallery/Tesla Model 3 Performance.jpg" alt="Tesla Model 3 Performance" />
+                    </div>
+                    <div class="back-card">
+                        <h3 class="name">Tesla Model 3 Performance</h3>
+                        <div class="details">
+                            <p class="year">
+                                <span class="tag"><i class="fa-solid fa-calendar"></i>
+                                    Year:</span>
+                                2025
+                            </p>
+                            <p class="price">
+                                <span class="tag"><i class="fa-solid fa-dollar-sign"></i>
+                                    Price:</span>
+                                55,000
+                            </p>
+                            <p class="color">
+                                <span class="tag"><i class="fa-solid fa-palette"></i>
+                                    Colors:</span>
+                                <span class="color-circle white"></span>
+                                <span class="color-circle blue"></span>
+                                <span class="color-circle black"></span>
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="special-link">Test Drive</a>
+                            <a href="#" class="special-link">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-        
-            <!--
-        
     </section>
     
-
 
 
     <!-- Start Footer -->
     <footer>
         <div class="container">
-            <p class="github">Github Repo: <a href="https://github.com/momen5406/IT-Project-AutoArena" target="_blank"><i class="fa-brands fa-github"></i></a></p>
-            <p class="copyrights">Copy Right 2025 &copy; By <span>FCAIH Team</span>. All Rights Reserved</p>
+            <p class="github">
+                Github Repo:
+                <a href="https://github.com/momen5406/IT-Project-AutoArena" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+            </p>
+            <p class="copyrights">
+                Copy Right 2025 &copy; By <span>FCAIH Team</span>. All
+                Rights Reserved
+            </p>
         </div>
     </footer>
     <!-- End Footer -->
-
-
-
-
 
     <!-- Global JS File -->
     <script src="../js/global.js"></script>
@@ -1032,4 +1317,3 @@
 </body>
 
 </html>
-          
