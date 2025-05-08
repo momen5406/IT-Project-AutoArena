@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test drive</title>
+    <link rel="stylesheet" href="testdrive.css">
+</head>
+<body>
+    <section class="section-header">
+     <header class="headear">
+        <h1>Don’t just take our word for it try it yourself!</h1>
+     </header><br>
+    </section>
+
+<h1 class="first-h1">
+    REQUEST A DRIVING EXPERIENCE
+</h1>
+
+<div id="confirmation-message">
+    <h2>Confirmation Complete</h2>
+    <p>We will contact you soon. Thank you for your request!</p>
+</div>
+
+<section class="Request-driving">
+    <div class="container-1">
+        <h2>1. Choose your vehicle</h2><br>
+        <div class="vehicle-selection">
+            <div class="select-section">
+                <p>Please choose the vehicle you are interested in:</p>
+                <label for="modelFilter"></label>
+                <select id="modelFilter">
+                    <option value="----">----</option>
+                    <option value="Audi RS7 Sportback">Audi RS7 Sportback</option>
+                    <option value="Mercedes-Benz S-Class">Mercedes-Benz S-Class</option>
+                    <option value="BMW M5 Competition">BMW M5 Competition</option>
+                    <option value="Ferrari 812 Superfast">Ferrari 812 Superfast</option>
+                    <option value="Porsche 911">Porsche 911</option>
+                    <option value="Maserati Ghibli">Maserati Ghibli</option>
+                    <option value="BMW X5">BMW X5</option>
+                    <option value="Audi A8">Audi A8</option>
+                </select>
+            </div>
+            <div class="car-details" id="car-details"></div>
+        </div>
+    </div>
+    
+
+    <div class="container-1-5" id="container-2-new">
+        <div class="date-wrapper">
+            <div class="text-section">
+                <h2>2. Select your preferred test drive date</h2>
+                <p>Please choose a convenient date and time for your test drive:</p>
+                <label for="test-drive-date">Date:</label>
+                <input type="date" id="test-drive-date" name="test-drive-date"><br><br>
+                <label for="test-drive-time">Time:</label>
+                <input type="time" id="test-drive-time" name="test-drive-time">
+            </div>
+            <div class="img-date">
+                <img src="images/4298.jpg_wh860.jpg" alt="Test drive car">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-2">
+        <div class="info-with-image">
+            <div class="form-section">
+                <h2>3. Complete your contact details</h2>
+                <h4>Please let us know the following in order to contact you:</h4>
+                <p>Title</p>
+                <select id="title">
+                    <option value="---">--- </option>
+                    <option value="MR">MR </option>
+                    <option value="MRS">MRS </option>
+                    <option value="MISS">MISS </option>
+                </select>
+                <p>First Name</p>
+                <input type="text" id="first-name" required placeholder="">
+                <p>Last Name</p>
+                <input type="text" id="last-name" required placeholder="">
+                <p>Telephone</p>
+                <input type="tel" id="telephone" required placeholder="">
+                <p>Email </p>
+                <input type="email" id="email" required placeholder="">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-3">
+        <h2>4. Send your information</h2>
+        <p>Your personal data will be securely processed in accordance with our <a href="#">Privacy Policy</a>.</p>
+
+        <h3>Stay Connected</h3>
+        <p>Select how you'd like to receive updates about our latest offers and services:</p>
+
+        <div class="communication-options">
+            <label><input type="checkbox" name="contact_method" value="email"> Email</label><br>
+            <label><input type="checkbox" name="contact_method" value="sms"> SMS</label><br>
+            <label><input type="checkbox" name="contact_method" value="phone"> Phone Call</label>
+        </div>
+
+        <button type="button" class="submit-button" onclick="showConfirmation()">Confirm Your Test Drive</button>
+    </div>
+</section>   
+
+<script>
+    function showConfirmation() {
+        
+        document.getElementById('confirmation-message').style.display = 'block';
+
+        document.getElementById('modelFilter').value = '----';
+        document.getElementById('test-drive-date').value = '';
+        document.getElementById('test-drive-time').value = '';
+        document.getElementById('title').value = '---';
+        document.getElementById('first-name').value = '';
+        document.getElementById('last-name').value = '';
+        document.getElementById('telephone').value = '';
+        document.getElementById('email').value = '';
+        let checkboxes = document.getElementsByName('contact_method');
+        for (let i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].checked = false;
+        }
+        setTimeout(function() {
+            document.getElementById('confirmation-message').style.display = 'none';
+        }, 4000);
+    }
+
+    const carData = {
+        "Audi RS7 Sportback": {
+            image: "images/gallery-audi.jpg",
+        },
+        "Mercedes-Benz S-Class": {
+            image: "images/images (1).jpeg",
+        },
+        "BMW M5 Competition": {
+            image: "images/images (2).jpeg",
+          
+        },
+        "Ferrari 812 Superfast": {
+            image: "images/images (3).jpeg",
+        },
+        "Porsche 911": {
+            image: "images/images (4).jpeg",
+        },
+        "Maserati Ghibli": {
+            image: "images/images (5).jpeg",
+            
+        },
+        "BMW X5": {
+            image: "images/images (6).jpeg",
+           
+        },
+        "Audi A8": {
+            image: "images/images (7).jpeg",
+        }
+    };
+
+    document.getElementById('modelFilter').addEventListener('change', function () {
+        const selectedModel = this.value;
+        const detailsContainer = document.getElementById('car-details');
+
+        
+        if (carData[selectedModel]) {
+            detailsContainer.innerHTML = `
+                <div class="car-info">
+                    <img src="${carData[selectedModel].image}" alt="${selectedModel}">
+                    <div class="car-description">
+                        <h3>${selectedModel}</h3>
+                        <p>${carData[selectedModel].description}</p>
+                    </div>
+                </div>
+            `;
+        } else {
+           
+            detailsContainer.innerHTML = '';
+        }
+    });
+
+
+</script>
+
+</body>
+</html>
