@@ -227,8 +227,75 @@ nav .menu-icon {
 footer {
     background-color: var(--black);
     color: white;
-    text-align: center;
     padding: 20px 0;
+}
+
+footer h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+footer .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 20px 0;
+}
+
+footer .links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+footer .links ul li {
+    width: 50%;
+}
+
+footer .links ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+    transition: var(--trans);
+}
+
+footer .links ul li a:hover {
+    padding-left: 5px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+footer .social .icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: end;
+}
+
+footer .social .icons a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social .icons a i {
+    transition: var(--trans);
+    font-size: 24px;
+}
+
+footer .social .icons i:hover {
+    transform: scale(1.3);
+    color: var(--main-color);
+}
+
+footer .contact .link {
+    display: flex;
+    justify-content: center;
+}
+
+footer .copyrights-link {
+    text-align: center;
 }
 
 footer .github {
