@@ -8,7 +8,12 @@
     width: 100%;
     height: 600px;
     position: relative;
-    top: -16px;
+    
+    
+    
+}
+.section-header{
+    padding-top: 50px;
     
 }
 
