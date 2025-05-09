@@ -8,12 +8,14 @@ img {
 
 .mechanic {
     padding-top: 60px;
+		justify-content: space-evenly;
 }
 
 .mechanic .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
+		;
 }
 
 .mechanic .mechanic-card {
