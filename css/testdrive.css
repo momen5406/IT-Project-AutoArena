@@ -8,7 +8,12 @@
     width: 100%;
     height: 600px;
     position: relative;
-    bottom: 35px;
+    
+    
+    
+}
+.section-header{
+    padding-top: 50px;
     
 }
 
@@ -27,8 +32,6 @@
     font-size: 85px;
     line-height: 1;
 }
-
-
 
 .first-h1 {
     text-align: center;
@@ -228,6 +231,14 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.container-3 li{
+    margin-left: 30px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(169, 123, 18);
+}
 
 .submit-button:hover {
     background-color: #000000;
@@ -288,7 +299,9 @@
     .container-3 h3 {
         text-align: center;
     }
+    
 
+    }
     footer .row {
         flex-direction: column;
         align-items: center;
@@ -299,7 +312,6 @@
         padding: 0;
         text-align: center;
     }
-}
 @media (min-width: 1024px) {
     .container-1,
     .container-1-5,

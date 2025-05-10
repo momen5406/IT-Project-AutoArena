@@ -18,11 +18,7 @@
                 <li>
                     <a href="gallery.html" class="active">Browse Cars</a>
                 </li>
-                <li><a href="mechanic.html">Book a Mechanic</a></li>
-                <li><a href="repair.html">Auto Parts</a></li>
-                <!-- <li><a href="reviews.html">Reviews</a></li> -->
-                <li><a href="news.html">News</a></li>
-                <li><a href="about.html">About US</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
             </ul>
 
             <i id="menu-button" class="fa-solid fa-bars menu-icon"></i>
@@ -30,19 +26,8 @@
     </nav>
     <!-- End Nav -->
 
-    <!-- Start Landing -->
-    <header class="pages-header">
-        <div class="container">
-            <div class="text">
-                <h4>Browse Cars</h4>
-                <div class="links">
-                    <a href="../index.html">Home</a>
-                    <i class="fa-solid fa-angles-right"></i>
-                    <p>Browse Cars</p>
-                </div>
-            </div>
-        </div>
-    </header>
+    
+   
     <!-- Start Landing -->
 
     <!-- !! Start Your Code Here -->
@@ -70,14 +55,14 @@
                 <label for="modelFilter"></label>
                 <select id="modelFilter">
                     <option value="----">----</option>
-                    <option value="Audi RS7 Sportback">Audi RS7 Sportback</option>
+                    <option value="Lamborghini Temerario">Lamborghini Temerario</option>
                     <option value="Mercedes-Benz S-Class">Mercedes-Benz S-Class</option>
-                    <option value="BMW M5 Competition">BMW M5 Competition</option>
+                    <option value="Mercedes-AMG GT Black Series 2025">Mercedes-AMG GT Black Series 2025</option>
                     <option value="Ferrari 812 Superfast">Ferrari 812 Superfast</option>
                     <option value="Porsche 911">Porsche 911</option>
-                    <option value="Maserati Ghibli">Maserati Ghibli</option>
+                    <option value="Lamborghini Urus">Lamborghini Urus</option>
                     <option value="BMW X5">BMW X5</option>
-                    <option value="Audi A8">Audi A8</option>
+                    <option value="Koenigsegg Jesko 2025">Koenigsegg Jesko 2025</option>
                 </select>
             </div>
             <div class="car-details" id="car-details"></div>
@@ -132,7 +117,7 @@
         <p>Your personal data will be securely processed in accordance with our <a href="#">Privacy Policy</a>.</p>
 
         <h3>Stay Connected</h3>
-        <p>Select how you'd like to receive updates about our latest offers and services:</p>
+        <p>Select how you'd like to receive updates about our latest offers and services : </p>
 
         <div class="communication-options">
             <label><input type="checkbox" name="contact_method" value="email"> Email</label><br>
@@ -142,6 +127,13 @@
 
         <button type="button" class="submit-button" onclick="showConfirmation()">Confirm Your Test Drive</button>
     </div>
+            <div class="container-3">
+                <h2>5. if you want to see reviews and avideo for your car click on reviews : </h2>
+                <ul>
+                    <li><a href="reviews.html">reviews</a></li>
+                </ul></div>
+
+</section> 
     <footer>
         <div class="container">
             <div class="row">
@@ -179,8 +171,7 @@
                 <p class="copyrights">Copy Right 2025 &copy; By <span>FCAIH Team</span>. All Rights Reserved</p>
             </div>
         </div>
-    </footer>
-</section>   
+    </footer>  
 
 <script>
     function showConfirmation() {
@@ -205,32 +196,33 @@
     }
 
     const carData = {
-        "Audi RS7 Sportback": {
-            image: "../img/gallery-audi.jpg",
+        "Lamborghini Temerario": {
+            image: "../img/gallery/lambo.png",
         },
         "Mercedes-Benz S-Class": {
             image: "../img/gallery/Mercedes-Benz S-Class.jpg",
         },
-        "BMW M5 Competition": {
-            image: "../img/gallery/BMW M5 Competition.jpg",
+        "Mercedes-AMG GT Black Series 2025": {
+            image: "../img/gallery/amg.jpg",
           
         },
         "Ferrari 812 Superfast": {
             image: "../img/gallery/Ferrari-812-Superfast.jpg",
+
         },
         "Porsche 911": {
-            image: "../img/gallery/Porsche 911.jpg",
+            image: "../img/gallery/Porsche-911-GT3-RS-2024.jpg",
         },
-        "Maserati Ghibli": {
-            image: "../img/gallery/Maserati Ghibli.jpg",
+        "Lamborghini Urus": {
+            image: "../img/gallery/urus.png",
             
         },
         "BMW X5": {
             image: "../img/gallery/BMW X5.jpg",
            
         },
-        "Audi A8": {
-            image: "../img/gallery/Audi A8.jpg",
+        "Koenigsegg Jesko 2025": {
+            image: "../img/gallery/kong.png",
         }
     };
 
