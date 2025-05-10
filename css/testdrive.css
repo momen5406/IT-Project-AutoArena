@@ -358,3 +358,8 @@ a{
         max-width: 100% !important;
     }
 }
+.container-3 li :hover{
+    color: #2e93ff;
+    transition: .5s ease;
+
+}
