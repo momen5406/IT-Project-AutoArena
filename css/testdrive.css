@@ -1,6 +1,9 @@
+:root {
+    --main-color: #2e93ff;
+}
 
 .headear {
-    background: url(../img/gallery/photo-1503376780353-7e6692767b70.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery/photo-1503376780353-7e6692767b70.avif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +12,9 @@
     height: 600px;
     position: relative;
     
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .section-header{
@@ -18,17 +23,21 @@
 }
 
 .headear h1 {
-    position: absolute;
     text-align: center;
-    top: 10%;
-    right: 55%;
     color: rgb(247, 247, 247);
+    width: 50%;
     font-size: 85px;
     line-height: 1;
 }
+
+@media (max-width: 991px) {
+    .headear h1 {
+        width: 100%;
+    }
+}
 .headear span{
     
-    color: rgb(173, 37, 37);
+    color: var(--main-color);
     font-size: 85px;
     line-height: 1;
 }
@@ -52,7 +61,7 @@
 .container-3 {
     background-color: white;
     border: 1px solid #ccc;
-    border-top: 6px solid #007BFF;
+    border-top: 6px solid var(--main-color);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin: 10px;
     padding: 10px;
@@ -61,7 +70,7 @@
 }
 
 .container-1 {
-    border-top: 4px solid #007BFF;
+    border-top: 4px solid var(--main-color);
 }
 
 .container-1 p {
@@ -116,7 +125,7 @@
 }
 
 .car-description h3 {
-    color: #007BFF;
+    color: var(--main-color);
     margin-top: 10px;
 }
 
@@ -200,13 +209,13 @@
 .container-2 h2,
 .container-1-5 h2,
 .container-3 h1 {
-    color: #007BFF;
+    color: var(--main-color);
 }
 
 .container-3 h2 {
     position: relative;
     bottom: 20px;
-    color: #007BFF;
+    color: var(--main-color);
     margin-top: 20px;
     margin-bottom: 5px;
     
@@ -227,7 +236,7 @@
 .submit-button {
     margin-top: 20px;
     padding: 12px 24px;
-    background-color: #007BFF;
+    background-color: var(--main-color);
     color: white;
     border: none;
     font-size: 1rem;
@@ -313,7 +322,7 @@ a{
 
     footer .links ul {
         padding: 0;
-        text-align: center;
+        /* text-align: center; */
     }
 @media (min-width: 1024px) {
     .container-1,
@@ -337,5 +346,15 @@ a{
     .img-date img {
         width: 500px;
         height: 300px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-1,
+    .container-1-5,
+    .container-2,
+    .container-3 {
+        width: auto;
+        max-width: 100% !important;
     }
 }
