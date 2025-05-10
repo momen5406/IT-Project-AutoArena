@@ -198,6 +198,7 @@
 
 .container-1 h2,
 .container-2 h2,
+.container-1-5 h2,
 .container-3 h1 {
     color: #007BFF;
 }
@@ -208,7 +209,7 @@
     color: #007BFF;
     margin-top: 3px;
     margin-bottom: 5px;
-    top: 15px;
+    top: 5px;
 }
 
 .container-3 p {
