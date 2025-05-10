@@ -240,6 +240,13 @@
         top: 20%;
         text-align: center;
     }
+    .headear span{
+        font-size: 36px;
+        right: 10%;
+        top: 20%;
+        text-align: center;
+
+    }
 
     .vehicle-selection,
     .date-wrapper,
